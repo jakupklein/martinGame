@@ -10,8 +10,10 @@ public class QuadTest : MonoBehaviour
     public float mesh_Length, mesh_Width, mesh_Height, segments;
     private Vector3 faceUp, faceRight, faceForward;
 
+
     void Start()
     {
+        
         mesh = new Mesh();
         filter = GetComponent<MeshFilter>();
         meshBuilder = new MeshBuilder();
@@ -19,15 +21,18 @@ public class QuadTest : MonoBehaviour
         faceRight = Vector3.right * mesh_Width;
         faceForward = Vector3.forward * mesh_Length;
 
-       
+    }
+    void Update() { 
         for (int i=0; i< segments; i++)
         {
             float z = mesh_Length * i;
 
             for(int j=0; j<segments; j++)
             {
+
                 float x = mesh_Width * j;
                 Vector3 origin = new Vector3(x, Random.Range(0f, mesh_Height), z);
+                
                 MakeACube(origin);
             }
         }
@@ -49,7 +54,10 @@ public class QuadTest : MonoBehaviour
         BuildQuad(meshBuilder, end, -faceUp, -faceRight);
         BuildQuad(meshBuilder, end, -faceForward, -faceUp);
 
+      
         filter.sharedMesh = meshBuilder.CreateMesh();
+        MeshCollider meshc = filter.gameObject.AddComponent(typeof(MeshCollider)) as MeshCollider;
+
     }
 
     void BuildQuad(MeshBuilder meshBuilder, Vector3 offset, Vector3 widthDirection, Vector3 lengthDirection)
