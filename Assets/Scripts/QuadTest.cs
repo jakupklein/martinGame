@@ -21,8 +21,13 @@ public class QuadTest : MonoBehaviour
         faceRight = Vector3.right * mesh_Width;
         faceForward = Vector3.forward * mesh_Length;
 
+        Vector3 origin = new Vector3(0, Random.Range(0f, mesh_Height), 0);
+        MakeACube(origin);
     }
-    void Update() { 
+    /// <summary>
+    /// 
+    /// </summary>
+   /* void Update() { 
         for (int i=0; i< segments; i++)
         {
             float z = mesh_Length * i;
@@ -38,7 +43,7 @@ public class QuadTest : MonoBehaviour
         }
        
     }
-
+    */
   
 
     void MakeACube( Vector3 origin)
