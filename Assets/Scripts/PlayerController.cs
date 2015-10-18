@@ -1,29 +1,51 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class PlayerController : MonoBehaviour {
+	CharacterController charController;
+	public float speed = 3.0F;
+	public GameObject body;
+	Rigidbody playerRigidbody;
+	Vector3 movement, playerToMouse;
+	float camRayLength =100f;
+	int floorMask;
 
-    public float speed;
-    private Vector2 mousePos;
-    private Vector3 screenPos;
-    private Rigidbody rb;
 
-    void Start()
-    {
-        rb = GetComponent<Rigidbody>();
-    }
+	void Awake(){
+		charController = GetComponent<CharacterController> ();
+		floorMask = LayerMask.GetMask ("Floor");
 
-    void FixedUpdate()
-    {
 
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
-        mousePos = Input.mousePosition;
-        screenPos = Camera.main.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, transform.position.z - Camera.main.transform.position.z));
-        transform.eulerAngles = new Vector3(0, Mathf.Atan2((mousePos.y - transform.position.y), (mousePos.x - transform.position.x)) * Mathf.Rad2Deg - 90, 0);
+	}
 
-        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+	void FixedUpdate(){
 
-        rb.AddForce(movement * speed);
-    }
+	
+		Turning ();
+	}
+
+
+
+	void Turning(){
+
+		Ray camRay = Camera.main.ScreenPointToRay (Input.mousePosition);
+		RaycastHit floorHit;
+
+		if (Physics.Raycast (camRay, out floorHit, camRayLength, floorMask)) {
+			playerToMouse = floorHit.point - body.transform.position;
+			playerToMouse.y = 0f;
+
+			Quaternion newRotation = Quaternion.LookRotation(playerToMouse);
+			body.transform.rotation = Quaternion.Slerp(body.transform.rotation, newRotation, speed *Time.deltaTime);
+
+			//playerRigidbody.MoveRotation(newRotation);
+		}
+		Vector3 foward = Input.GetAxis ("Vertical") * transform.TransformDirection (Vector3.forward) * speed;
+		Vector3 side = Input.GetAxis ("Horizontal") * transform.TransformDirection (Vector3.right) * speed;
+		charController.Move (foward * Time.deltaTime);
+		charController.Move (side * Time.deltaTime);
+		charController.SimpleMove (Physics.gravity);
+	}
+
 }
