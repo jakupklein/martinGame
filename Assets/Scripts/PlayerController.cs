@@ -3,49 +3,82 @@ using System.Collections;
 
 
 public class PlayerController : MonoBehaviour {
-	CharacterController charController;
-	public float speed = 3.0F;
-	public GameObject body;
-	Rigidbody playerRigidbody;
-	Vector3 movement, playerToMouse;
+
+	public float speed = 3.0F, jumpSpeed=0.0F;
+	Vector3 movement, playerToMouse, foward, side, upDirection;
 	float camRayLength =100f;
 	int floorMask;
+    bool m_IsGrounded;
+    private Rigidbody rb;
 
 
 	void Awake(){
-		charController = GetComponent<CharacterController> ();
-		floorMask = LayerMask.GetMask ("Floor");
+        rb = GetComponent<Rigidbody>();
+        upDirection = Vector3.zero;
+        floorMask = LayerMask.GetMask ("Floor");
 
 
 	}
 
 	void FixedUpdate(){
 
-	
-		Turning ();
+
+        MoveNTurning();
 	}
 
 
 
-	void Turning(){
+	void MoveNTurning(){
 
 		Ray camRay = Camera.main.ScreenPointToRay (Input.mousePosition);
 		RaycastHit floorHit;
 
 		if (Physics.Raycast (camRay, out floorHit, camRayLength, floorMask)) {
-			playerToMouse = floorHit.point - body.transform.position;
+			playerToMouse = floorHit.point - transform.position;
 			playerToMouse.y = 0f;
+            float angle = Vector3.Angle(playerToMouse, transform.forward);
+            //float angle = Quaternion.Angle(transform.rotation, body.transform.rotation);
+            Quaternion newRotation = Quaternion.LookRotation(playerToMouse);
+            // Debug.Log(angle);
+            transform.rotation = newRotation;
+      
+           
+             
+            //playerRigidbody.MoveRotation(newRotation);
+        }
+		
+        foward = Vector3.ProjectOnPlane(Camera.main.transform.forward * Input.GetAxis("Vertical") * speed, Vector3.up);
+        side = Vector3.ProjectOnPlane(Camera.main.transform.right * Input.GetAxis("Horizontal") * speed, Vector3.up);
 
-			Quaternion newRotation = Quaternion.LookRotation(playerToMouse);
-			body.transform.rotation = Quaternion.Slerp(body.transform.rotation, newRotation, speed *Time.deltaTime);
+        rb.transform.position = (rb.transform.position + foward + side) ;
+       // rb.transform.position = (rb.transform.position + side);
 
-			//playerRigidbody.MoveRotation(newRotation);
-		}
-		Vector3 foward = Input.GetAxis ("Vertical") * transform.TransformDirection (Vector3.forward) * speed;
-		Vector3 side = Input.GetAxis ("Horizontal") * transform.TransformDirection (Vector3.right) * speed;
-		charController.Move (foward * Time.deltaTime);
-		charController.Move (side * Time.deltaTime);
-		charController.SimpleMove (Physics.gravity);
+       
+            if (Input.GetButtonDown("Jump") && m_IsGrounded)
+            {
+               
+                rb.AddForce(Vector3.up * jumpSpeed);
+               
+                
+            }
+            
+        
+       
 	}
 
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.layer == LayerMask.NameToLayer("Floor"))
+        {
+            m_IsGrounded = true;
+        }
+    }
+
+    void OnTriggerExit(Collider col)
+    {
+        if (col.gameObject.layer == LayerMask.NameToLayer("Floor"))
+        {
+            m_IsGrounded = false;
+        }
+    }
 }
