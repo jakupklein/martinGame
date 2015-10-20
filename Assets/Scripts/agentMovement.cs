@@ -9,17 +9,20 @@ public class agentMovement : MonoBehaviour {
  	public static float curiousDistance = 2;
  	public static float chasingDistance = 5;
  	public static float chasingAngle = 30;
- 	private GameObject floor;
+ 	public GameObject floor;
  	private GameObject navMesh;
  	private float startHeight;
  	private QuadTest floorScript;
+  
 
  	enum States{PATROLLING, STOPPING, CURIOUS, CHASING}
     private States agentState;
     void Start() {
-    	startHeight = transform.position.y;
 
-    	navMesh = GameObject.Find("NavMesh");
+        
+        startHeight = transform.position.y;
+
+    	//navMesh = GameObject.Find("NavMesh");
     	floor = GameObject.Find("Floor");
     	floorScript = floor.GetComponent<QuadTest>();
     	agent = GetComponent<NavMeshAgent>();
@@ -35,9 +38,9 @@ public class agentMovement : MonoBehaviour {
     }
 
     void GoToNextPoint() {
-    	var tmpMin = floor.transform.position;
-    	var tmpMax = floor.transform.position - new Vector3(floorScript.segments * floorScript.mesh_Width, 0, floorScript.segments * floorScript.mesh_Length);
-
+    	var tmpMin = floor.transform.position - new Vector3(floor.transform.localScale.x * 10f, 0, floor.transform.localScale.z * 10f)/2;
+        var tmpMax = floor.transform.position + new Vector3(floor.transform.localScale.x*10f, 0,floor.transform.localScale.z*10f)/2;
+        
     	agent.SetDestination(new Vector3(Random.Range(tmpMin.x, tmpMax.x),
     								 			 Random.Range(tmpMin.y, tmpMax.y),
     								 			 Random.Range(tmpMin.z, tmpMax.z) ));
