@@ -29,6 +29,9 @@ public class Tetrahedron : MonoBehaviour{
 	//									);
 //	test.transform.position = fixCenterOffset;
 	Vector3[] normals = {p0 + fixCenterOffset,p1 + fixCenterOffset,p2 + fixCenterOffset,p3 + fixCenterOffset};
+	for(int i = 0; i < normals.Length; i++){
+		normals[i] = normals[i].normalized;
+	}
 	Mesh mesh = meshFilter.mesh;
 	if (mesh == null){
 	    meshFilter.mesh = new Mesh();
@@ -50,6 +53,9 @@ public class Tetrahedron : MonoBehaviour{
 	//	var tem = new QuadTest();
 	}
 
+	public void Update() {
+
+	}
 
 
 }

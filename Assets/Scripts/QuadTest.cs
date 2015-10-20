@@ -38,8 +38,8 @@ public class QuadTest : MonoBehaviour
             {
                 float x = mesh_Width * j;
                 Vector3 origin = new Vector3(x, Random.Range(0f, mesh_Height), z);
-                boxColliders[k].center = origin + new Vector3(mesh_Length/2, mesh_Width/2, mesh_Height/2);
-                boxColliders[k].size = new Vector3(mesh_Length, mesh_Width, mesh_Height);
+                boxColliders[k].center = origin + new Vector3(mesh_Width/2, mesh_Height/2, mesh_Length/2);
+                boxColliders[k].size = new Vector3(mesh_Width, mesh_Height, mesh_Length);
                 k++;
 
                 MakeACube(origin);
