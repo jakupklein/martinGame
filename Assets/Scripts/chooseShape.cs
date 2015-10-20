@@ -69,6 +69,7 @@ public class chooseShape : MonoBehaviour {
 				counter--;
 
 		}
+        
 
 	}
 
