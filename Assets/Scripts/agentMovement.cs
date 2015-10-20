@@ -41,36 +41,36 @@ public class agentMovement : MonoBehaviour {
     	agent.SetDestination(new Vector3(Random.Range(tmpMin.x, tmpMax.x),
     								 			 Random.Range(tmpMin.y, tmpMax.y),
     								 			 Random.Range(tmpMin.z, tmpMax.z) ));
-    	//print(agent.destination);
+    	////print(agent.destination);
     }
 
     void Update() {
-    	//print(agentState);
+    	////print(agentState);
     	switch(agentState)
     	{
     		case States.PATROLLING:
     		if(Vector3.Distance(gameObject.transform.position, player.transform.position) < curiousDistance)
     		{
-    			print("is getting curious");
+    			//print("is getting curious");
     			agentState = States.CURIOUS;
     			//agent.SetDestination(player.transform.position);
 
     		}else if(Vector3.Distance(transform.position, player.transform.position) < chasingDistance &&
     				 Vector3.Angle(transform.forward, player.transform.forward) < chasingAngle)
     		{
-    			print("is goning to chase");
+    			//print("is goning to chase");
     			agentState = States.CHASING;
     		}else if(agent.remainingDistance < 0.5f)
     		{
-    			print("is goint to stop");
+    			//print("is goint to stop");
     			agentState = States.STOPPING;
     		}else{
-    			print("patrolling");
+    			//print("patrolling");
     		}
     		break;
 
     		case States.STOPPING:
-    			print("stopping");
+    			//print("stopping");
     			GoToNextPoint();
     			//agent.SetDestination(new Vector3(Random.Range(tmpMin.x, tmpMax.x),
     			//					 			 Random.Range(tmpMin.y, tmpMax.y),
@@ -79,7 +79,7 @@ public class agentMovement : MonoBehaviour {
     		break;
 
     		case States.CURIOUS:
-    		print("is curious");
+    		//print("is curious");
     			if(agent.remainingDistance < 0.5f)
     				agentState = States.STOPPING;
     		break;
@@ -88,7 +88,7 @@ public class agentMovement : MonoBehaviour {
     		if(Vector3.Distance(transform.position, player.transform.position) < chasingDistance &&
     				 Vector3.Angle(transform.forward, player.transform.forward) < chasingAngle)
     		{
-    			print("is chasing");
+    			//print("is chasing");
     			//agent.SetDestination(player.transform.position);
     		}
 

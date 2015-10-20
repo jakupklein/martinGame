@@ -29,9 +29,34 @@ public class QuadTest : MonoBehaviour
             boxColliders[i] = filter.gameObject.AddComponent(typeof(BoxCollider)) as BoxCollider;
         }
 
+        int k = 0;
+        for (int i = 0; i < segments; i++)
+        {
+            float z = mesh_Length * i;
+
+            for (int j = 0; j < segments; j++)
+            {
+                float x = mesh_Width * j;
+                Vector3 origin = new Vector3(x, Random.Range(0f, mesh_Height), z);
+                boxColliders[k].center = origin + new Vector3(mesh_Width/2, mesh_Height/2, mesh_Length/2);
+                boxColliders[k].size = new Vector3(mesh_Width, mesh_Height, mesh_Length);
+                k++;
+
+                MakeACube(origin);
+            }
+        }
+    }
+    // Older version than below
+   /* void Update() {
+
+        for(int i = 0; i < segments * segments; i++){
+            boxColliders[i] = filter.gameObject.AddComponent(typeof(BoxCollider)) as BoxCollider;
+        }
+
       //  print(boxColliders.Length);
 
          int k = 0;
+
         for (int i=0; i< segments; i++)
         {
             float z = mesh_Length * i;
@@ -53,6 +78,9 @@ public class QuadTest : MonoBehaviour
 
 
     }
+
+    */
+
     void Update() {
         // int k = 0;
         // for (int i=0; i< segments; i++)
@@ -76,12 +104,11 @@ public class QuadTest : MonoBehaviour
 
 
 
-
     }
 
 
 
-    public void MakeACube(int index, Vector3 origin)
+    public void MakeACube(Vector3 origin)
     {
         //Vector3 origin = Vector3.one;
         Vector3 end = origin + (faceUp + faceRight +faceForward);
