@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class icosahedron : MonoBehaviour {
-	
+public class Icosahedron : MonoBehaviour {
+
 	public Vector3[] vertices;
 	private int[] triangles;
 	private Mesh mesh;
@@ -12,13 +12,15 @@ public class icosahedron : MonoBehaviour {
 	public bool showDebugBalls;
 	private Vector3[] normals;
 	// Use this for initialization
-	void Start () {
+	//void Start () {
+	public void MakeMesh(){
+
 		quads = 3;
 		vertices  = new Vector3[quads*4];
 		normals  = new Vector3[quads*4];
 		triangles  = new int[60];
-	
-		
+
+
 		for (int i = 0; i < quads; i++) {
 			if(i == 0){
 				vertices[4*i] = new Vector3(-1.618f/2f,-0.5f,0);
@@ -32,7 +34,7 @@ public class icosahedron : MonoBehaviour {
 				normals[4*i+2] = vertices[4*i] + new Vector3(0,1,0);
 				normals[4*i+3] = vertices[4*i] + new Vector3(1.618f,1,0);
 			}
-				
+
 			if(i == 1){
 				vertices[4*i] = new Vector3(0,-1.618f/2f,-0.5f);
 				//vertices[4*i] = new Vector3(0,0,0);
@@ -48,7 +50,7 @@ public class icosahedron : MonoBehaviour {
 
 			if(i == 2){
 				vertices[4*i] = new Vector3(-0.5f,0,-1.618f/2f);
-				//vertices[4*i] = new Vector3(0,0,0);	
+				//vertices[4*i] = new Vector3(0,0,0);
 				vertices[4*i+1] = vertices[4*i] + new Vector3(0,0,1.618f);
 				vertices[4*i+2] = vertices[4*i] + new Vector3(1,0,0);
 				vertices[4*i+3] = vertices[4*i] + new Vector3(1,0,1.618f);
@@ -67,9 +69,9 @@ public class icosahedron : MonoBehaviour {
 
 		CreateMesh ();
 	}
-	
+
 	public Mesh CreateMesh() {
-		
+
 		if(debug)
 		for (int i = 0; i < quads; i++) {
 			triangles[6*i+0] = 4*i + 0;
@@ -80,8 +82,8 @@ public class icosahedron : MonoBehaviour {
 			triangles[6*i+5] = 4*i + 3;
 		}
 
-	
-	
+
+
 		if (!debug) {
 			triangles[0] = 8;
 			triangles[1] = 2;
@@ -152,7 +154,7 @@ public class icosahedron : MonoBehaviour {
 			triangles[49] = 9;
 			triangles[50] = 2;
 
-			
+
 			triangles[51] = 0;
 			triangles[52] = 2;
 			triangles[53] = 8;
@@ -168,13 +170,13 @@ public class icosahedron : MonoBehaviour {
 		}
 		//mesh = new Mesh();
 		MeshFilter filter = GetComponent<MeshFilter>();
-		
+
 		if (filter == null)
 		{
 			gameObject.AddComponent<MeshFilter>();
 			filter = GetComponent<MeshFilter>();
 		}
-		
+
 		mesh = filter.mesh;
 		mesh.Clear();
 		mesh.RecalculateBounds();
@@ -184,21 +186,21 @@ public class icosahedron : MonoBehaviour {
 		mesh.normals = normals;
 		//mesh.colors = colors;
 		//mesh.uv = newUV;
-		
-		
-		
+
+
+
 		return mesh;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		
+
 		for (int i = 0; i < debugPoints.Length; i++) {
-			if(debugPoints != null)
-				vertices[i] = debugPoints[i].position;
+			//if(debugPoints != null)
+			//	vertices[i] = debugPoints[i].position;
 		}
-		CreateMesh ();
+	//	CreateMesh ();
 		//print (debugPoints [1].position + "    " + vertices[1]);
-		
+
 	}
 }
