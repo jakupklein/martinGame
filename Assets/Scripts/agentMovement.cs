@@ -19,7 +19,7 @@ public class agentMovement : MonoBehaviour {
     void Start() {
     	startHeight = transform.position.y;
 
-    	navMesh = GameObject.Find("NavMesh");
+    	//navMesh = GameObject.Find("NavMesh");
     	floor = GameObject.Find("Floor");
     	floorScript = floor.GetComponent<QuadTest>();
     	agent = GetComponent<NavMeshAgent>();
@@ -36,7 +36,7 @@ public class agentMovement : MonoBehaviour {
 
     void GoToNextPoint() {
     	var tmpMin = floor.transform.position;
-    	var tmpMax = floor.transform.position - new Vector3(floorScript.segments * floorScript.mesh_Width, 0, floorScript.segments * floorScript.mesh_Length);
+    	var tmpMax = floor.transform.position - new Vector3(10, 0, 10);
 
     	agent.SetDestination(new Vector3(Random.Range(tmpMin.x, tmpMax.x),
     								 			 Random.Range(tmpMin.y, tmpMax.y),

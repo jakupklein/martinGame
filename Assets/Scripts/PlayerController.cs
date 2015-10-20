@@ -20,6 +20,17 @@ public class PlayerController : MonoBehaviour {
 
 	}
 
+    void Update()
+    {
+        if (Input.GetButtonDown("Jump") && m_IsGrounded)
+        {
+
+            rb.AddForce(Vector3.up * jumpSpeed);
+
+
+        }
+    }
+
 	void FixedUpdate(){
 
 
@@ -54,19 +65,13 @@ public class PlayerController : MonoBehaviour {
        // rb.transform.position = (rb.transform.position + side);
 
        
-            if (Input.GetButtonDown("Jump") && m_IsGrounded)
-            {
-               
-                rb.AddForce(Vector3.up * jumpSpeed);
-               
-                
-            }
+            
             
         
        
 	}
 
-    void OnTriggerEnter(Collider col)
+    void OnTriggerStay(Collider col)
     {
         if (col.gameObject.layer == LayerMask.NameToLayer("Floor"))
         {
