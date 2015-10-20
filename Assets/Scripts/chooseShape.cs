@@ -4,6 +4,7 @@ using System.Collections;
 public class chooseShape : MonoBehaviour {
 
 	public int counter;
+	public bool runCollisoinOnce = true;
 	Tetrahedron tetrahedron;	//4
 	Octahedron octahedron;		//8
 	Dodecahedron dodecahedron;	//12
@@ -28,19 +29,36 @@ public class chooseShape : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if(counter == 1){
+		if(counter == 0){
+			Destroy(gameObject);
+		}
+		else if(counter == 1){
 			tetrahedron.MakeMesh();
 			transform.localScale = new Vector3(2f, 2f, 2f);
 		}
-		if(counter == 2){
+		else if(counter == 2){
 			octahedron.MakeMesh();
 			transform.localScale = new Vector3(2f, 2f, 2f);
 		}
-		if(counter == 3){
+		else if(counter == 3){
 			dodecahedron.MakeMesh();
 		}
-		if(counter == 4){
+		else if(counter == 4){
 			icosahedron.MakeMesh();
+		}else{
+			print("the counter of chooseShape is to big! ");
+		}
+
+		print(counter);
+		runCollisoinOnce = true;
+
+	}
+
+	 void OnCollisionEnter(Collision other) {
+		if(other.gameObject.tag == "Fist" && runCollisoinOnce) {
+			print("fist");
+			runCollisoinOnce = false;
+			counter--;
 		}
 
 	}
