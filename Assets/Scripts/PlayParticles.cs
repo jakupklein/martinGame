@@ -14,7 +14,7 @@ public class PlayParticles : MonoBehaviour {
 
     public void ParticlesPlay(Vector3 position)
     {
-        Debug.Log("particles");
+        
         transform.position = position;
         particles.Play();
     }

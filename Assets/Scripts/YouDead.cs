@@ -33,9 +33,9 @@ public class YouDead : MonoBehaviour {
             shrink = 1f;
             //gameObject.GetComponent<Rigidbody>().isKinematic = true;
             particlesScript.ParticlesPlay(transform.position);
-           
-            
-            Invoke("killPlayer", 1f);
+            killPlayer();
+
+            //Invoke("killPlayer", 0.5F);
 
 
         }
