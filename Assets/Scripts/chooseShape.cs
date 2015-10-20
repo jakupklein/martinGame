@@ -58,7 +58,7 @@ public class chooseShape : MonoBehaviour {
 		if(other.gameObject.tag == "Fist" && runCollisoinOnce) {
 			print("fist");
 			runCollisoinOnce = false;
-			counter--;
+				counter--;
 		}
 
 	}
