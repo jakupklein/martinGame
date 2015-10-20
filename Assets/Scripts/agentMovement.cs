@@ -6,20 +6,18 @@ public class agentMovement : MonoBehaviour {
  	private NavMeshAgent agent;
  	private Vector3 playerLastKnownPos;
  	private GameObject player;
- 	public static float curiousDistance = 2;
  	public static float chasingDistance = 5;
- 	public static float chasingAngle = 30;
  	public GameObject floor;
  	private GameObject navMesh;
  	private float startHeight;
  	private QuadTest floorScript;
-  
 
- 	enum States{PATROLLING, STOPPING, CURIOUS, CHASING}
+
+ 	enum States{PATROLLING, STOPPING, CHASING}
     private States agentState;
     void Start() {
 
-        
+
         startHeight = transform.position.y;
 
     	//navMesh = GameObject.Find("NavMesh");
@@ -40,7 +38,7 @@ public class agentMovement : MonoBehaviour {
     void GoToNextPoint() {
     	var tmpMin = floor.transform.position - new Vector3(floor.transform.localScale.x * 10f, 0, floor.transform.localScale.z * 10f)/2;
         var tmpMax = floor.transform.position + new Vector3(floor.transform.localScale.x*10f, 0,floor.transform.localScale.z*10f)/2;
-        
+
     	agent.SetDestination(new Vector3(Random.Range(tmpMin.x, tmpMax.x),
     								 			 Random.Range(tmpMin.y, tmpMax.y),
     								 			 Random.Range(tmpMin.z, tmpMax.z) ));
@@ -52,14 +50,8 @@ public class agentMovement : MonoBehaviour {
     	switch(agentState)
     	{
     		case States.PATROLLING:
-    		if(Vector3.Distance(gameObject.transform.position, player.transform.position) < curiousDistance)
-    		{
-    			//print("is getting curious");
-    			agentState = States.CURIOUS;
-    			//agent.SetDestination(player.transform.position);
-
-    		}else if(Vector3.Distance(transform.position, player.transform.position) < chasingDistance &&
-    				 Vector3.Angle(transform.forward, player.transform.forward) < chasingAngle)
+    		print("patrolling");
+    		if(Vector3.Distance(transform.position, player.transform.position) < chasingDistance )
     		{
     			//print("is goning to chase");
     			agentState = States.CHASING;
@@ -73,6 +65,7 @@ public class agentMovement : MonoBehaviour {
     		break;
 
     		case States.STOPPING:
+    		print("stopping");
     			//print("stopping");
     			GoToNextPoint();
     			//agent.SetDestination(new Vector3(Random.Range(tmpMin.x, tmpMax.x),
@@ -81,19 +74,12 @@ public class agentMovement : MonoBehaviour {
     			agentState = States.PATROLLING;
     		break;
 
-    		case States.CURIOUS:
-    		//print("is curious");
-    			if(agent.remainingDistance < 0.5f)
-    				agentState = States.STOPPING;
-    		break;
-
     		case States.CHASING:
-    		if(Vector3.Distance(transform.position, player.transform.position) < chasingDistance &&
-    				 Vector3.Angle(transform.forward, player.transform.forward) < chasingAngle)
-    		{
-    			//print("is chasing");
-    			//agent.SetDestination(player.transform.position);
-    		}
+    		print("casing");
+    			agent.SetDestination(player.transform.position);
+    			if(agent.remainingDistance < chasingDistance){
+    				agentState = States.STOPPING;
+    			}
 
     		break;
     	}
