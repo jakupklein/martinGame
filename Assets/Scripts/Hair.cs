@@ -39,13 +39,19 @@ public class Hair : MonoBehaviour {
 	}
 	mesh.Clear();
 	mesh.vertices = new Vector3[]{p0,p1,p2,p3};
+	var test = new Vector3[]{p0,p1,p2,p3};
 	mesh.triangles = new int[]{
 	    0,1,2,
 	    0,2,3,
 	    2,1,3,
 	    0,3,1
 	};
-	mesh.normals = normals;
+	//for(int i = 0; i < test.Length; i++){
+	//	Debug.DrawLine(test[i]+transform.position, new Vector3(test[i].x+test[i].x+transform.position.x,
+	//														   test[i].y+test[i].y+transform.position.y,
+	//														   test[i].z+test[i].z+transform.position.z));
+	//}
+	mesh.normals = test;
 	//mesh.RecalculateNormals();
 	mesh.RecalculateBounds();
 	mesh.Optimize();
