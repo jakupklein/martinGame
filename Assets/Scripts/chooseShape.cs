@@ -4,14 +4,18 @@ using System.Collections;
 public class chooseShape : MonoBehaviour {
 
 	public int counter;
-	public bool runCollisoinOnce = true;
-	Tetrahedron tetrahedron;	//4
+    private GameObject gMO;
+    private GameManager gM;
+    Tetrahedron tetrahedron;	//4
 	Octahedron octahedron;		//8
 	Dodecahedron dodecahedron;	//12
 	Icosahedron icosahedron;	//20
+	bool runCollisoinOnce = true;
 	// Use this for initialization
 	void Start () {
-		tetrahedron  = gameObject.GetComponent<Tetrahedron>();
+        gMO = GameObject.Find("GameManager");
+        gM = gMO.GetComponent<GameManager>();
+        tetrahedron  = gameObject.GetComponent<Tetrahedron>();
 		octahedron   = gameObject.GetComponent<Octahedron>();
 		dodecahedron = gameObject.GetComponent<Dodecahedron>();
 		icosahedron  = gameObject.GetComponent<Icosahedron>();
@@ -25,40 +29,42 @@ public class chooseShape : MonoBehaviour {
 			dodecahedron.MakeMesh();
 		if(counter == 4)
 			icosahedron.MakeMesh();
-	}
+
+        gM.ZombiePlus();
+
+    }
 
 	// Update is called once per frame
 	void Update () {
-		if(counter == 0){
-			Destroy(gameObject);
-		}
-		else if(counter == 1){
+		if(counter == 1){
 			tetrahedron.MakeMesh();
 			transform.localScale = new Vector3(2f, 2f, 2f);
 		}
-		else if(counter == 2){
+		if(counter == 2){
 			octahedron.MakeMesh();
 			transform.localScale = new Vector3(2f, 2f, 2f);
 		}
-		else if(counter == 3){
+		if(counter == 3){
 			dodecahedron.MakeMesh();
 		}
-		else if(counter == 4){
+		if(counter == 4){
 			icosahedron.MakeMesh();
+
 		}else{
-			print("the counter of chooseShape is to big! ");
+			//print("the counter of chooseShape is to big! ");
 		}
 
-		print(counter);
+		//print(counter);
 		runCollisoinOnce = true;
 
 	}
 
 	 void OnCollisionEnter(Collision other) {
 		if(other.gameObject.tag == "Fist" && runCollisoinOnce) {
-			print("fist");
+			//print("fist");
 			runCollisoinOnce = false;
 				counter--;
+
 		}
 
 	}

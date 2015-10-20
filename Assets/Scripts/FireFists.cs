@@ -4,6 +4,7 @@ using System.Collections;
 public class FireFists : MonoBehaviour {
 
     public GameObject rightFist, leftFist, rightBullet, leftBullet, rightArm, leftArm, leftHand, rightHand;
+    public float bulletForce;
     private Vector3 orRightArmPos, orLeftArmPos, leftHandInitialScale, rightHandInitialScale;
     private float rightArmRecoilWeight, leftArmRecoilWeight;
 
@@ -47,7 +48,7 @@ public class FireFists : MonoBehaviour {
         GameObject rightProj = Instantiate(rightBullet, rightFist.transform.position, rightFist.transform.rotation) as GameObject;
         rightProj.transform.position = rightProj.transform.position + rightFist.transform.forward ;
         Rigidbody rbRight = rightProj.GetComponent<Rigidbody>();
-        rbRight.velocity = rightFist.transform.forward * 40f;
+        rbRight.velocity = rightFist.transform.forward * bulletForce;
     }
 
     void FireLeftBullet()
@@ -56,7 +57,7 @@ public class FireFists : MonoBehaviour {
         GameObject leftProj = Instantiate(leftBullet, leftFist.transform.position, leftFist.transform.rotation) as GameObject;
         leftProj.transform.position = leftProj.transform.position + leftFist.transform.forward;
         Rigidbody rbLeft= leftProj.GetComponent<Rigidbody>();
-        rbLeft.velocity = leftFist.transform.forward * 40f;
+        rbLeft.velocity = leftFist.transform.forward * bulletForce;
     }
 
 
