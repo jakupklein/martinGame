@@ -14,7 +14,7 @@ public class Rotator : MonoBehaviour {
     void FixedUpdate()
     {
         
-            hinge.transform.Rotate(Vector3.up * rotSpeed);
+            transform.Rotate(Vector3.up * rotSpeed);
         
         
         
