@@ -1,0 +1,12 @@
+{
+	"folders":
+	[
+		{
+            "follow_symlinks": true,
+			"path": "../",
+			"folder_exclude_patterns": ["textures", "materials", "scenes", "sublime", "gizmos", "*standard assets", "sound", "iTween*", "meshes"],
+			"file_exclude_patterns": ["*.meta", "*.fbx", "*.prefab", "*.mat","*.rsp"]
+		}
+	],
+    "solution_file": "../../"
+}

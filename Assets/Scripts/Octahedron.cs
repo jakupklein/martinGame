@@ -9,32 +9,33 @@ public class Octahedron : MonoBehaviour {
 	private Vector3[] normals;
 
 	// Use this for initialization
-	void Start () {
+	//void Start () {
+	public void MakeMesh(){
 
 		vertices  = new Vector3[6];
 		normals  = new Vector3[6];
 		triangles  = new int[24];
-		
+
 		//vertices[4*i] = new Vector3(-1.618f/2f,-0.5f,0);
 		vertices[0] = new Vector3(0.5f,0,0);
 		vertices[1] = new Vector3(-0.5f,0,0);
 		vertices[2] = new Vector3(0,-0.5f,0);
 		vertices[3] = new Vector3(0,0.5f,0);
-		vertices[4] = new Vector3(0,0,0.5f); 
-		vertices[5] = new Vector3(0,0,-0.5f); 
+		vertices[4] = new Vector3(0,0,0.5f);
+		vertices[5] = new Vector3(0,0,-0.5f);
 
 		normals[0] = new Vector3(0.5f,0,0);
 		normals[1] = new Vector3(-0.5f,0,0);
 		normals[2] = new Vector3(0,-0.5f,0);
 		normals[3] = new Vector3(0,0.5f,0);
-		normals[4] = new Vector3(0,0,0.5f); 
-		normals[5] = new Vector3(0,0,-0.5f); 
-	
+		normals[4] = new Vector3(0,0,0.5f);
+		normals[5] = new Vector3(0,0,-0.5f);
+
 		CreateMesh ();
 	}
-	
+
 	public Mesh CreateMesh() {
-		
+
 
 		triangles[0] = 0;
 		triangles[1] = 3;
@@ -71,13 +72,13 @@ public class Octahedron : MonoBehaviour {
 
 		//mesh = new Mesh();
 		MeshFilter filter = GetComponent<MeshFilter>();
-		
+
 		if (filter == null)
 		{
 			gameObject.AddComponent<MeshFilter>();
 			filter = GetComponent<MeshFilter>();
 		}
-		
+
 		mesh = filter.mesh;
 		mesh.Clear();
 		mesh.RecalculateBounds();
@@ -85,10 +86,10 @@ public class Octahedron : MonoBehaviour {
 		mesh.RecalculateNormals();
 		mesh.triangles = triangles;
 		mesh.normals = normals;
-		
+
 		return mesh;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		//CreateMesh ();

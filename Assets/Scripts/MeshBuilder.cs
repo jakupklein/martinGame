@@ -2,8 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class MeshBuilder  
+public class MeshBuilder
 {
+    Mesh mesh = new Mesh();
 
     private List<Vector3> meshVertices = new List<Vector3>();
     public List<Vector3> Vertices
@@ -33,6 +34,13 @@ public class MeshBuilder
     }
 
     private List<int> m_Indices = new List<int>();
+    public List<int> triangles
+    {
+        get
+        {
+            return m_Indices;
+        }
+    }
 
     public void AddTriangle(int point0, int point1, int point2)
     {
@@ -43,7 +51,7 @@ public class MeshBuilder
 
     public Mesh CreateMesh()
     {
-        Mesh mesh = new Mesh();
+
 
         mesh.vertices = meshVertices.ToArray();
         mesh.triangles = m_Indices.ToArray();
@@ -56,10 +64,19 @@ public class MeshBuilder
         if (meshUvs.Count == meshVertices.Count)
             mesh.uv = meshUvs.ToArray();
 
-        mesh.RecalculateBounds();
+       // mesh.RecalculateBounds();
 
-        
+
         return mesh;
+    }
+
+    public void ClearMesh(){
+
+        meshVertices.Clear();
+        meshNormals.Clear();
+        meshUvs.Clear();
+        m_Indices.Clear();
+
     }
 
 

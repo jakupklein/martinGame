@@ -1,0 +1,2738 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mesh",
+				"meshBuilder	MeshBuilder"
+			],
+			[
+				"mes",
+				"meshBuilder	MeshBuilder"
+			],
+			[
+				"tmp",
+				"tmpIndex	int"
+			],
+			[
+				"for",
+				"foreach	foreach"
+			],
+			[
+				"camera",
+				"cameraPoints	GameObject[]"
+			],
+			[
+				"Vector",
+				"Vector3	Vector3"
+			],
+			[
+				"GA",
+				"GameObject	GameObject"
+			],
+			[
+				"Vecto",
+				"Vector3()	Vector3()"
+			],
+			[
+				"Fin",
+				"FindGameObjectsWithTag(string tag)	GameObject[]"
+			],
+			[
+				"Vect",
+				"Vector3()	Vector3()"
+			],
+			[
+				"transform",
+				"Transform	Transform"
+			],
+			[
+				"tra",
+				"HumanTrait	HumanTrait"
+			],
+			[
+				"I",
+				"IList	IList"
+			],
+			[
+				"Matf",
+				"Mathf	Mathf"
+			],
+			[
+				"GetCompeo",
+				"GetComponent<T>()	T"
+			],
+			[
+				"conn",
+				"connectedObjective	LevelObjective"
+			],
+			[
+				"t",
+				"text	string { get; set; }"
+			],
+			[
+				"set",
+				"settings	Settings"
+			],
+			[
+				"sett",
+				"SettingsControl	SettingsControl"
+			],
+			[
+				"fo",
+				"fieldOfView	float { get; set; }"
+			],
+			[
+				"acti",
+				"activeSelf	bool { get; }"
+			],
+			[
+				"Lo",
+				"LoadLevel(int index)	void"
+			],
+			[
+				"cmfl",
+				"CameraFlash	AudioClip"
+			],
+			[
+				"Iend",
+				"IEndGameEvents	IEndGameEvents"
+			],
+			[
+				"IEnd",
+				"IEndGameEvents	IEndGameEvents"
+			],
+			[
+				"gae",
+				"gameObject	GameObject { get; }"
+			],
+			[
+				"FindCo",
+				"FindObjectOfType<T>()	T"
+			],
+			[
+				"Isnak",
+				"ISnakeItemEvents	ISnakeItemEvents"
+			],
+			[
+				"Pl",
+				"Play(AudioClip clip, bool looping = false)	void"
+			],
+			[
+				"GetCopm",
+				"GetComponent<T>()	T"
+			],
+			[
+				"ang",
+				"angularVelocity	Vector3 { get; set; }"
+			],
+			[
+				"ply",
+				"Play(AudioClip clip, bool looping = false)	void"
+			],
+			[
+				"Cache",
+				"ColliderCache	ColliderCache"
+			],
+			[
+				"Icoll",
+				"ICollidable	ICollidable"
+			],
+			[
+				"time",
+				"soundTime	float"
+			],
+			[
+				"invo",
+				"InvokePauseEnter()	void"
+			],
+			[
+				"Isnk",
+				"ISnakeItemEvents	ISnakeItemEvents"
+			],
+			[
+				"Uni",
+				"UnityEngine	UnityEngine"
+			],
+			[
+				"isna",
+				"ISnakeItemEvents	ISnakeItemEvents"
+			],
+			[
+				"an",
+				"animator	Animator"
+			],
+			[
+				"Ienum",
+				"IEnumerator	IEnumerator"
+			],
+			[
+				"Ienu",
+				"IEnumerator	IEnumerator"
+			],
+			[
+				"inte",
+				"ISnakeTriggers	ISnakeTriggers"
+			],
+			[
+				"in",
+				"InvokeObjectiveItemPickup(LevelObjective x, BaseObject y)	void"
+			],
+			[
+				"inc",
+				"InvokeSnakeItemPickup(StickyItem x)	void"
+			],
+			[
+				"Il",
+				"ILevelEvents	ILevelEvents"
+			],
+			[
+				"play",
+				"Play()	void"
+			],
+			[
+				"cl",
+				"Clamp(float value, float min, float max)	float"
+			],
+			[
+				"g",
+				"green	Color { get; }"
+			],
+			[
+				"Drar",
+				"DrawRay(Vector3 start, Vector3 dir, Color color)	void"
+			],
+			[
+				"dra",
+				"DrawRay(Vector3 start, Vector3 dir, Color color)	void"
+			],
+			[
+				"loo",
+				"LookRotation(Vector3 forward, Vector3 upwards)	Quaternion"
+			],
+			[
+				"do",
+				"Dot(Vector3 lhs, Vector3 rhs)	float"
+			],
+			[
+				"Jump",
+				"JumpStop	JumpStop"
+			],
+			[
+				"f",
+				"GetField(string name)	FieldInfo"
+			],
+			[
+				"vel",
+				"Velocity	Vector2"
+			],
+			[
+				"Seril",
+				"SerializeField	SerializeField"
+			],
+			[
+				"null",
+				"null	null"
+			],
+			[
+				"gi",
+				"_Grid"
+			],
+			[
+				"c",
+				"Count	int { get; }"
+			],
+			[
+				"lrt",
+				"lastRightTrigger	float"
+			],
+			[
+				"last",
+				"lastLeftTrigger	float"
+			],
+			[
+				"Device",
+				"device	InputDevice"
+			],
+			[
+				"ve",
+				"Vector2	Vector2"
+			],
+			[
+				"ri",
+				"RigidBody"
+			],
+			[
+				"Tra",
+				"TransitionTo"
+			],
+			[
+				"Au",
+				"AudioMixerSnapshot"
+			],
+			[
+				"wi",
+				"weights"
+			],
+			[
+				"tri",
+				"triggerEvent"
+			],
+			[
+				"linpo",
+				"linePos	?"
+			],
+			[
+				"Glo",
+				"GlobalInput	GlobalInput"
+			],
+			[
+				"key",
+				"keyUp	E_KeyClick"
+			],
+			[
+				"combo",
+				"comboIncrement	int"
+			],
+			[
+				"soundPlayer",
+				"SoundPlayer	SoundPlayer"
+			],
+			[
+				"GetCO",
+				"GetComponent<T>()	T"
+			],
+			[
+				"k",
+				"Key	global::E_ComboEvent"
+			],
+			[
+				"Dict",
+				"Dictionary<TKey, TValue>()	Dictionary()"
+			],
+			[
+				"st",
+				"Start	global::E_ComboEvent"
+			],
+			[
+				"s",
+				"Stop	global::E_ComboEvent"
+			],
+			[
+				"getco",
+				"GetComponents<T>()	T[]"
+			],
+			[
+				"vec",
+				"Vector3	Vector3"
+			],
+			[
+				"e_m",
+				"E_movement	E_movement"
+			],
+			[
+				"stats",
+				"charStats	global::CharStats"
+			],
+			[
+				"new",
+				"newPerks	int"
+			],
+			[
+				"per",
+				"perk1	global::E_movement"
+			],
+			[
+				"GetC",
+				"GetComponents(Type type)	UnityEngine.Component[]"
+			],
+			[
+				"IEnu",
+				"IEnumerator	IEnumerator"
+			],
+			[
+				"IEnum",
+				"IEnumerator<	IEnumerator<"
+			],
+			[
+				"Deb",
+				"Debug	Debug"
+			],
+			[
+				"GetCompo",
+				"GetComponent<T>()	T"
+			],
+			[
+				"charmo",
+				"CharModifications	CharModifications"
+			],
+			[
+				"E_",
+				"E_PlayerTeam"
+			],
+			[
+				"Ep",
+				"E_PlayerTeam	E_PlayerTeam"
+			],
+			[
+				"te",
+				"team2	global::E_PlayerTeam"
+			],
+			[
+				"E_pl",
+				"E_PlayerTeam	E_PlayerTeam"
+			],
+			[
+				"GetCom",
+				"GetComponentInChildren<T>()	T"
+			],
+			[
+				"V",
+				"Vector3	Vector3"
+			],
+			[
+				"to",
+				"playerTowers	bool"
+			],
+			[
+				"GameSett",
+				"IngameSettings	IngameSettings"
+			],
+			[
+				"false",
+				"false	false"
+			],
+			[
+				"players",
+				"readyPlayers	System.Collections.Generic.List<bool>"
+			],
+			[
+				"inst",
+				"Instantiate(Object original, Vector3 position, Quaternion rotation)	UnityEngine.Object"
+			],
+			[
+				"retu",
+				"return	return"
+			],
+			[
+				"Instan",
+				"Instantiate(Object original, Vector3 position, Quaternion rotation)	UnityEngine.Object"
+			],
+			[
+				"sc",
+				"CaptureScreenshot(string filename, int superSize)	void"
+			],
+			[
+				"Getkd",
+				"GetKeyDown(KeyCode key)	bool"
+			],
+			[
+				"pre",
+				"preGame	global::GameState"
+			],
+			[
+				"Ed",
+				"E_direction	E_direction"
+			],
+			[
+				"pregampt",
+				"PregameSpot	PregameSpot"
+			],
+			[
+				"inv",
+				"InverseTransformPoint(Vector3 position)	UnityEngine.Vector3"
+			],
+			[
+				"foreach",
+				"foreach	foreach"
+			],
+			[
+				"list",
+				"List<T>()	List()"
+			],
+			[
+				"gamstea",
+				"GameState"
+			],
+			[
+				"Readingme",
+				"E_readingMode	E_readingMode"
+			],
+			[
+				"gam",
+				"gameSettings	global::IngameSettings"
+			],
+			[
+				"gamo",
+				"gameObject	[class]"
+			],
+			[
+				"gameo",
+				"gameObject	[class]"
+			],
+			[
+				"GameObject",
+				"GameObject	*()"
+			],
+			[
+				"char",
+				"charMovement"
+			],
+			[
+				"De",
+				"Debug"
+			],
+			[
+				"com",
+				"comboMode"
+			],
+			[
+				"by",
+				"byte2"
+			],
+			[
+				"buff",
+				"bufferLength"
+			],
+			[
+				"Etp",
+				"E_TowerType"
+			],
+			[
+				"type",
+				"towerType"
+			],
+			[
+				"v",
+				"Vector2"
+			],
+			[
+				"Ve",
+				"Vector2"
+			],
+			[
+				"sta",
+				"stats"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/dadiu/AppData/Roaming/Sublime Text 3/config.json",
+			"settings":
+			{
+				"buffer_size": 8054,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/QuadTest.cs",
+			"settings":
+			{
+				"buffer_size": 4400,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/cameraControl.cs",
+			"settings":
+			{
+				"buffer_size": 1241,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/CameraTrigger.cs",
+			"settings":
+			{
+				"buffer_size": 537,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/dadiu/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/Default (Windows).sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 1269,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/MeshBuilder.cs",
+			"settings":
+			{
+				"buffer_size": 1664,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/jakupTerrain.cs",
+			"settings":
+			{
+				"buffer_size": 92,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/Octahedron.cs",
+			"settings":
+			{
+				"buffer_size": 1889,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/Dodecahedron.cs",
+			"settings":
+			{
+				"buffer_size": 5152,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 374.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"gitgutter",
+				"GitGutter: Compare Against HEAD"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"gitgu",
+				"Git: Gui"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"upg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"removep",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"confl",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"all",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"comm	",
+				"Toggle Block Comment"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"plugin",
+				"SublimeCodeIntel: Disable Plugin"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"projec",
+				"Project: Save As"
+			],
+			[
+				"add	",
+				"Project: Add Folder"
+			],
+			[
+				"recon	",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"packag",
+				"Package Control: Disable Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Build: Java Project"
+			],
+			[
+				"run j",
+				"Build: Run Java"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Paragraph"
+			],
+			[
+				"prefer set",
+				"Preferences: Settings - User"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"hex",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"pack i",
+				"Package Control: Install Package"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"oacka",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 248.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"FindKeyConflicts: All Conflict",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/dadiu/Desktop/martinGame/martinGame/Assets",
+		"/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts"
+	],
+	"file_history":
+	[
+		"/C/Users/dadiu/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/Default (OSX).sublime-keymap",
+		"/C/Users/dadiu/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/Default (Linux).sublime-keymap",
+		"/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/jakupTerrain.cs",
+		"/C/Users/dadiu/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/OmniSharpSublime.sublime-settings",
+		"/C/Users/dadiu/AppData/Roaming/Sublime Text 3/Packages/User/OmniSharpSublime.sublime-settings",
+		"/C/Users/dadiu/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/PrebuiltOmniSharpServer/config.json",
+		"/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/QuadTest.cs",
+		"/C/Users/dadiu/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/Tetrahedron.cs",
+		"/C/Projects/Dadiu/Progamminigame/DadioProgramming/Assets/Materials/Shaders/CRT.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/CameraFollow.cs",
+		"/C/Projects/Kraus/HermiteTube/Assets/LSystem.js",
+		"/C/Projects/Narratives/Assets/GOs/Fairy/Fairy.cs",
+		"/C/Projects/Kraus/HermiteTube/Assets/MeshMaker.cs",
+		"/C/Projects/Dadiu/Progamminigame/DadioProgramming/Assets/Scripts/Example.cs",
+		"/C/Projects/Dadiu/Progamminigame/Sublime/sublime.sublime-project",
+		"/C/Users/jon/Downloads/LSystem.js",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Events/EventLinker.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Managers/EventManager.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Misc/BaseObject.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Interfaces/EventList.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Snake/SnakeInventory.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Misc/inverseNormals.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/FullInspector/FullInspector2/Core/fiISerializedObjectUtility.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/LevelObjective.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/CameraTrigger.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Snake/SnakeCollider.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/UI/GroceryItem.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/UI/EndFrame.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/StickyItem.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/CameraFollow.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/TimeScript.cs",
+		"/C/GOG Games/Unreal Tournament 2004/System/UT2004.ini",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/UI/GroceryList.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/UI/GroceryItemMultiObject.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/AirDuct.cs",
+		"/C/Program Files (x86)/Steam/steamapps/common/Unreal Tournament 2004/System/UT2004.ini",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/CameraFader.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/BackgroundMusic.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Misc/EndCar.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Teleport.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Misc/Settings.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/MenuClicker.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/WashingMachine.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Misc/SoundMaker.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/ObjectiveCompleteEffect.cs",
+		"/C/Users/jon/AppData/LocalLow/Team Null Dadiu/null/settings.snake",
+		"/C/Projects/Snake/Git/Assets/Scripts/EndFrame.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Misc/Serializer.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/GameManager.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/GameSettings.cs",
+		"/c/Projects/Minigame2/minigame2/Assets/Scripts/UI/GroceryArrow.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Interfaces/IEventInvoker.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/levelCompleted.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Snake/SnakePoser2000.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/PhotoBooth.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/SnakeTransportInc.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/SnakeMovement.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/SnakeMovement.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/UI/GroceryCrossOut.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/UI/PauseButton.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/UI/GroceryArrow.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Misc/ColliderCache.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Misc/GenericCollidableObject.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Misc/AutoCacheColliders.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/AudioPlayer.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Snake/SnakePauseBehaviour.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/SnakeAttacher.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/PathFollower.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/PlanePathFollower.cs",
+		"/c/Projects/Minigame2/minigame2/Assets/Scripts/StickyItem.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/SnakeStickToItem.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/Misc/ParticleEffect.cs",
+		"/C/Users/jon/AppData/Local/Temp/tmpAF0B.tmp.cs",
+		"/C/Projects/fly/Assets/CameraController.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/StickyObject.cs",
+		"/C/Users/jon/AppData/Local/Temp/tmp694F.tmp.cs",
+		"/C/Users/jon/AppData/Local/Temp/tmp8890.tmp.cs",
+		"/c/Projects/Minigame2/minigame2/Assets/Scripts/EventManager.cs",
+		"/c/Projects/Minigame2/minigame2/Assets/Scripts/ObjectiveTracker.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/ObjectiveTracker.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/BaseObject.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/EventList.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/EventManager.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/SnakeInventory.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/SnakeCollider.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/LevelEvents.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/SnakeEvents.cs",
+		"/C/Projects/Minigame2/minigame2/Assets/Scripts/IEventInvoker.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/BaseObject.cs",
+		"/C/Projects/Minigame2/minigame2/",
+		"/C/Projects/fly/Assets/Commands/Command.cs",
+		"/C/Projects/fly/Assets/Commands/UnrecyleCommandCache.cs",
+		"/C/Projects/fly/Assets/Commands/CmdJump.cs",
+		"/C/Projects/fly/Assets/Commands/MovePlayer.cs",
+		"/C/Projects/Snake/Git/Assets/Editor/JenkinsUnity.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/Serializer.cs",
+		"/C/Projects/Snake/Git/Assets/Resources/settings.snake",
+		"/C/Projects/Snake/Git/Assets/Scripts/StartMenuFunctions.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/ClickEffect.cs",
+		"/C/Projects/Snake/Git/Assets/Resources/settings.jlmg",
+		"/C/Projects/fly/Assets/Serializer.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/soundStaticObject.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/SnakeSounds.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/SoundSnakeScript.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/SnakeJoint.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/ObjectiveScreen.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/Timer.cs",
+		"/c/Projects/Snake/Git/Assets/Scripts/Objective.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/Objective.cs",
+		"/C/Projects/Hamrebras/Assets/Scripts/Singletons/LevelController.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/SoundScript.cs",
+		"/C/Users/jon/AppData/Local/Temp/tmpB204.tmp.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/cameraAudioScript.cs",
+		"/C/Projects/Snake/Git/Assets/PhotoBooth.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/MenuFunctions.cs",
+		"/C/Users/jon/AppData/Roaming/Sublime Text 3/Packages/User/GitGutter.sublime-settings",
+		"/C/Projects/Snake/Git/Assets/Scripts/StartTheGame.cs",
+		"/C/Projects/Snake/Git/Assets/Scripts/GameController.cs",
+		"/C/Dropbox/unity3d autmated builds jenkins",
+		"/C/Projects/Snake/Git/Assets/Scripts/Poop.cs",
+		"/C/Users/jon/AppData/Roaming/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/C/Projects/Snake/Git/Assets/Scripts/FullInspector/UpdateFullInspectorRootDirectory.cs",
+		"/C/Projects/Snake/Git/Git.sln",
+		"/C/Projects/Snake/Git/",
+		"/C/Projects/Snake/Git/Assets/Scripts/FullInspector/FindFullInspector.cs",
+		"/C/Projects/Snake/Sublime/sublime.sublime-project",
+		"/C/Projects/Snake/Git/.gitignore"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 103.0,
+		"where_history":
+		[
+			"C:\\Users\\dadiu\\AppData\\Roaming\\Sublime Text 3\\Packages",
+			"",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"triangles[3",
+			" = ;",
+			"] = ",
+			"ctor3;",
+			"3;",
+			"ecto",
+			"print",
+			".Add(p",
+			".Add(",
+			".Add",
+			"uildQuad(",
+			"trinagle",
+			"Count",
+			"]()",
+			"ToArray",
+			">",
+			"List<",
+			"List",
+			"array",
+			"conter",
+			"alt+ctrl+8",
+			"verti",
+			"meshBuilder.",
+			"new List",
+			"Vertices.Add",
+			"meshBuilder",
+			"as",
+			"IList",
+			"\\",
+			"IList",
+			"1",
+			"98",
+			"j",
+			"resY",
+			"height",
+			"width",
+			"height",
+			"j",
+			"i",
+			"nc",
+			"width",
+			"height",
+			"faces",
+			"index",
+			"width",
+			"noOfColumns",
+			"index",
+			"resX",
+			"z",
+			"y",
+			"x",
+			"i",
+			"z",
+			"j",
+			"i",
+			"y",
+			"z",
+			" \n",
+			"r1",
+			"p4",
+			"r4",
+			"IPauseEvents",
+			"||",
+			"==",
+			"throw new System.NotImplementedException();",
+			"emission",
+			"color",
+			"HashSet",
+			"cameraTriggerSettings",
+			"=",
+			"teleporter",
+			"60",
+			"Camera",
+			"fov",
+			"gameObject",
+			"mat.",
+			"mat",
+			"hrow new System.NotImplementedException();",
+			"IEndGameEvents",
+			"throw",
+			"GameSettings",
+			"ISnakeItemEvents",
+			"throw new System.NotImplementedException();",
+			"ISnakeItemEvents",
+			"throw new System.NotImplementedException();",
+			"IEndGameEvents",
+			"CaemraFade",
+			"void",
+			"DOScale",
+			"cover",
+			"velocity",
+			"IObjectiveEvents",
+			"telePort",
+			"parent",
+			"position",
+			"rigids",
+			"snakeRig",
+			"//transform.parent = target;",
+			"global",
+			"UnityEngine",
+			"connectObjective",
+			"global",
+			"sizeDelta",
+			"SizeDelta",
+			"sizeDelta",
+			"SizeDelta",
+			"sizeDelta",
+			"IPauseEvents",
+			"image",
+			"ISnakeCollision",
+			"transform",
+			"ID",
+			"Ease.OutQuint",
+			"Elastic",
+			"OutElastic",
+			"TypeHandle",
+			"psys",
+			"bool",
+			"\"flying\"",
+			"Playing",
+			"joints",
+			"Collider",
+			"ObjectiveComplete",
+			"ObjectiveFound",
+			"Collision",
+			"OnCollision",
+			"speed",
+			"runDirection"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"OnTrigger(Trigger t, Transform tra)",
+			"OnTrigger(Trigger t, Transform tra){",
+			"\"",
+			";	36",
+			";	35",
+			";	34",
+			"KREAATIV"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/dadiu/AppData/Roaming/Sublime Text 3/config.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8054,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								903,
+								903
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": false,
+							"WordCountSyntax": "json",
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "json",
+							"buffer_scroll_name": "031642c2",
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/QuadTest.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4396,
+								4396
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "unityc#",
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "unityc#",
+							"buffer_scroll_name": "f5d6c886",
+							"oops":
+							{
+								"1238,1245": "Use 'var' keyword",
+								"19,24": "Using directive is not used by code and can be removed safely.",
+								"196,207": "after '_' a lower letter should follow. (Rule 'Fields')",
+								"209,219": "after '_' a lower letter should follow. (Rule 'Fields')",
+								"221,232": "after '_' a lower letter should follow. (Rule 'Fields')",
+								"234,242": "Name should have prefix '_'. (Rule 'Fields').",
+								"2392,2397": "Parameter 'index' is never used",
+								"3078,3082": "Redundant 'else' keyword",
+								"313,318": "The private field 'meshc' is never assigned",
+								"3288,3299": "Parameter 'meshBuilder' hides field 'QuadTest.meshBuilder'",
+								"341,345": "Name should have prefix '_'. (Rule 'Fields').",
+								"388,393": "Convert to constant",
+								"4132,4135": "Variable could be moved to a nested scope"
+							},
+							"spell_check": false,
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1764.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/cameraControl.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								341,
+								341
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "unityc#",
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "unityc#",
+							"buffer_scroll_name": "04cfadd1",
+							"oops":
+							{
+								"106,109": "Name should have prefix '_'. (Rule 'Fields').",
+								"172,184": "Name should have prefix '_'. (Rule 'Fields').",
+								"19,24": "Using directive is not used by code and can be removed safely.",
+								"360,365": "Local variable is never used",
+								"516,524": "Convert to constant",
+								"539,547": "Convert to constant",
+								"59,72": "'cameraControl' should start with an upper case letter. (Rule 'Types')"
+							},
+							"spell_check": false,
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/CameraTrigger.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								408,
+								408
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "unityc#",
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "unityc#",
+							"buffer_scroll_name": "6a2b132c",
+							"oops":
+							{
+								"139,150": "Name should have prefix '_'. (Rule 'Fields').",
+								"19,24": "Using directive is not used by code and can be removed safely.",
+								"346,354": "Parameter can be declared with base type"
+							},
+							"spell_check": false,
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/dadiu/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/Default (Windows).sublime-keymap",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": false,
+							"WordCountSyntax": "json",
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "json",
+							"buffer_scroll_name": "ce213eb8",
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/MeshBuilder.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1632,
+								1632
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "unityc#",
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "unityc#",
+							"buffer_scroll_name": "6b0184e5",
+							"oops":
+							{
+								"162,174": "Convert to readonly",
+								"19,24": "Using directive is not used by code and can be removed safely.",
+								"336,347": "Convert to readonly",
+								"507,514": "Convert to readonly",
+								"662,671": "Convert to readonly",
+								"712,721": "'triangles' should start with an upper case letter. (Rule 'Properties')"
+							},
+							"spell_check": false,
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/jakupTerrain.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 92,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "unityc#",
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "unityc#",
+							"buffer_scroll_name": "ff6fa120",
+							"oops":
+							{
+								"19,24": "Using directive is not used by code and can be removed safely.",
+								"59,71": "'jakupTerrain' should start with an upper case letter. (Rule 'Types')"
+							},
+							"spell_check": false,
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/Octahedron.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1889,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								1808
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "unityc#",
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "unityc#",
+							"buffer_scroll_name": "8afa5b51",
+							"spell_check": false,
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 630.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/Dodecahedron.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								17
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "unityc#",
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "unityc#",
+							"buffer_scroll_name": "e9caad81",
+							"oops":
+							{
+								"100,107": "'Vector3' is not a known identifier",
+								"1017,1018": "Cannot convert from ? to [UnknownType Vector3]",
+								"1040,1047": "'Vector3' is not a known identifier",
+								"1062,1063": "Cannot convert from ? to [UnknownType Vector3]",
+								"1085,1092": "'Vector3' is not a known identifier",
+								"1105,1106": "Cannot convert from ? to [UnknownType Vector3]",
+								"1128,1135": "'Vector3' is not a known identifier",
+								"1149,1150": "Cannot convert from ? to [UnknownType Vector3]",
+								"1172,1179": "'Vector3' is not a known identifier",
+								"1193,1194": "Cannot convert from ? to [UnknownType Vector3]",
+								"1216,1223": "'Vector3' is not a known identifier",
+								"1238,1239": "Cannot convert from ? to [UnknownType Vector3]",
+								"1261,1268": "'Vector3' is not a known identifier",
+								"1283,1284": "Cannot convert from ? to [UnknownType Vector3]",
+								"1306,1313": "'Vector3' is not a known identifier",
+								"1327,1328": "Cannot convert from ? to [UnknownType Vector3]",
+								"1350,1357": "'Vector3' is not a known identifier",
+								"1375,1376": "Cannot convert from ? to [UnknownType Vector3]",
+								"1397,1404": "'Vector3' is not a known identifier",
+								"1421,1422": "Cannot convert from ? to [UnknownType Vector3]",
+								"1443,1450": "'Vector3' is not a known identifier",
+								"1468,1469": "Cannot convert from ? to [UnknownType Vector3]",
+								"1490,1497": "'Vector3' is not a known identifier",
+								"1516,1517": "Cannot convert from ? to [UnknownType Vector3]",
+								"1538,1545": "'Vector3' is not a known identifier",
+								"155,159": "'Mesh' is not a known identifier",
+								"1563,1564": "Cannot convert from ? to [UnknownType Vector3]",
+								"1585,1592": "'Vector3' is not a known identifier",
+								"1609,1610": "Cannot convert from ? to [UnknownType Vector3]",
+								"1631,1638": "'Vector3' is not a known identifier",
+								"1654,1655": "Cannot convert from ? to [UnknownType Vector3]",
+								"1676,1683": "'Vector3' is not a known identifier",
+								"1700,1701": "Cannot convert from ? to [UnknownType Vector3]",
+								"1722,1729": "'Vector3' is not a known identifier",
+								"1742,1743": "Cannot convert from ? to [UnknownType Vector3]",
+								"175,182": "'Vector3' is not a known identifier",
+								"1764,1771": "'Vector3' is not a known identifier",
+								"1785,1786": "Cannot convert from ? to [UnknownType Vector3]",
+								"1807,1814": "'Vector3' is not a known identifier",
+								"1827,1828": "Cannot convert from ? to [UnknownType Vector3]",
+								"1849,1856": "'Vector3' is not a known identifier",
+								"1870,1871": "Cannot convert from ? to [UnknownType Vector3]",
+								"1892,1899": "'Vector3' is not a known identifier",
+								"1913,1914": "Cannot convert from ? to [UnknownType Vector3]",
+								"1935,1942": "'Vector3' is not a known identifier",
+								"1957,1958": "Cannot convert from ? to [UnknownType Vector3]",
+								"1979,1986": "'Vector3' is not a known identifier",
+								"1999,2000": "Cannot convert from ? to [UnknownType Vector3]",
+								"2021,2028": "'Vector3' is not a known identifier",
+								"2042,2043": "Cannot convert from ? to [UnknownType Vector3]",
+								"2064,2071": "'Vector3' is not a known identifier",
+								"2085,2086": "Cannot convert from ? to [UnknownType Vector3]",
+								"2107,2114": "'Vector3' is not a known identifier",
+								"2129,2130": "Cannot convert from ? to [UnknownType Vector3]",
+								"2151,2158": "'Vector3' is not a known identifier",
+								"2173,2174": "Cannot convert from ? to [UnknownType Vector3]",
+								"2195,2202": "'Vector3' is not a known identifier",
+								"2216,2217": "Cannot convert from ? to [UnknownType Vector3]",
+								"2248,2252": "'Mesh' is not a known identifier",
+								"295,302": "'Vector3' is not a known identifier",
+								"306,307": "Cannot convert from ?[] to ?[]",
+								"325,332": "'Vector3' is not a known identifier",
+								"336,337": "Cannot convert from ?[] to ?[]",
+								"442,449": "'Vector3' is not a known identifier",
+								"467,468": "Cannot convert from ? to [UnknownType Vector3]",
+								"4731,4741": "'MeshFilter' is not a known identifier",
+								"4764,4774": "'MeshFilter' is not a known identifier",
+								"4775,4776": "'GetComponent' is not a known identifier",
+								"4777,4778": "'Dodecahedron' does not contain a definition for 'GetComponent'",
+								"4809,4819": "'gameObject' is not a known identifier",
+								"4833,4843": "'MeshFilter' is not a known identifier",
+								"4844,4845": "'?' does not contain a definition for 'AddComponent'",
+								"4846,4847": "'?' does not contain a definition for 'AddComponent'",
+								"4873,4883": "'MeshFilter' is not a known identifier",
+								"4884,4885": "'GetComponent' is not a known identifier",
+								"4886,4887": "'Dodecahedron' does not contain a definition for 'GetComponent'",
+								"490,497": "'Vector3' is not a known identifier",
+								"4909,4913": "Cannot convert from ? to [UnknownType Mesh]",
+								"4922,4927": "'Mesh' does not contain a definition for 'Clear'",
+								"4929,4930": "'Mesh' does not contain a definition for 'Clear'",
+								"4938,4955": "'Mesh' does not contain a definition for 'RecalculateBounds'",
+								"4957,4958": "'Mesh' does not contain a definition for 'RecalculateBounds'",
+								"4966,4974": "'Mesh' does not contain a definition for 'vertices'",
+								"4977,4985": "Cannot convert from ?[] to ?",
+								"4994,5012": "'Mesh' does not contain a definition for 'RecalculateNormals'",
+								"5014,5015": "'Mesh' does not contain a definition for 'RecalculateNormals'",
+								"5023,5032": "'Mesh' does not contain a definition for 'triangles'",
+								"5035,5044": "Cannot convert from System.Int32[] to ?",
+								"5053,5060": "'Mesh' does not contain a definition for 'normals'",
+								"5063,5070": "Cannot convert from ?[] to ?",
+								"514,515": "Cannot convert from ? to [UnknownType Vector3]",
+								"537,544": "'Vector3' is not a known identifier",
+								"562,563": "Cannot convert from ? to [UnknownType Vector3]",
+								"585,592": "'Vector3' is not a known identifier",
+								"6,17": "'UnityEngine' is not a known identifier",
+								"611,612": "Cannot convert from ? to [UnknownType Vector3]",
+								"634,641": "'Vector3' is not a known identifier",
+								"659,660": "Cannot convert from ? to [UnknownType Vector3]",
+								"682,689": "'Vector3' is not a known identifier",
+								"706,707": "Cannot convert from ? to [UnknownType Vector3]",
+								"729,736": "'Vector3' is not a known identifier",
+								"74,87": "'MonoBehaviour' is not a known identifier",
+								"752,753": "Cannot convert from ? to [UnknownType Vector3]",
+								"775,782": "'Vector3' is not a known identifier",
+								"799,800": "Cannot convert from ? to [UnknownType Vector3]",
+								"822,829": "'Vector3' is not a known identifier",
+								"842,843": "Cannot convert from ? to [UnknownType Vector3]",
+								"865,872": "'Vector3' is not a known identifier",
+								"886,887": "Cannot convert from ? to [UnknownType Vector3]",
+								"909,916": "'Vector3' is not a known identifier",
+								"929,930": "Cannot convert from ? to [UnknownType Vector3]",
+								"952,959": "'Vector3' is not a known identifier",
+								"973,974": "Cannot convert from ? to [UnknownType Vector3]",
+								"996,1003": "'Vector3' is not a known identifier"
+							},
+							"spell_check": false,
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.clang":
+	{
+		"height": 110.0
+	},
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 100.0
+	},
+	"output.variable_get":
+	{
+		"height": 446.0
+	},
+	"pinned_build_system": "",
+	"project": "sublime.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"even",
+				"Scripts\\Managers\\EventManager.cs"
+			],
+			[
+				"eventlink",
+				"Scripts\\Events\\EventLinker.cs"
+			],
+			[
+				"evenm",
+				"Scripts\\Managers\\EventManager.cs"
+			],
+			[
+				"stick",
+				"Scripts\\StickyItem.cs"
+			],
+			[
+				"endfr",
+				"Scripts\\UI\\EndFrame.cs"
+			],
+			[
+				"grocer",
+				"Scripts\\UI\\GroceryItem.cs"
+			],
+			[
+				"snakco",
+				"Scripts\\Snake\\SnakeCollider.cs"
+			],
+			[
+				"level",
+				"Scripts\\LevelObjective.cs"
+			],
+			[
+				"gro",
+				"Scripts\\UI\\GroceryItem.cs"
+			],
+			[
+				"levl",
+				"Scripts\\LevelObjective.cs"
+			],
+			[
+				"camer",
+				"Scripts\\CameraTrigger.cs"
+			],
+			[
+				"camef",
+				"Scripts\\CameraFollow.cs"
+			],
+			[
+				"baseo",
+				"Scripts\\Misc\\BaseObject.cs"
+			],
+			[
+				"multi",
+				"Scripts\\UI\\GroceryItemMultiObject.cs"
+			],
+			[
+				"groc",
+				"Scripts\\UI\\GroceryItem.cs"
+			],
+			[
+				"follow",
+				"Scripts\\CameraFollow.cs"
+			],
+			[
+				"obj",
+				"Scripts\\Misc\\BaseObject.cs"
+			],
+			[
+				"camf",
+				"Scripts\\CameraFollow.cs"
+			],
+			[
+				"tele",
+				"Scripts\\Teleport.cs"
+			],
+			[
+				"grocerl",
+				"Scripts\\UI\\GroceryList.cs"
+			],
+			[
+				"duct",
+				"Scripts\\AirDuct.cs"
+			],
+			[
+				"snakemo",
+				"Scripts\\SnakeMovement.cs"
+			],
+			[
+				"colli",
+				"Scripts\\Snake\\SnakeCollider.cs"
+			],
+			[
+				"aird",
+				"Scripts\\AirDuct.cs"
+			],
+			[
+				"trans",
+				"Scripts\\SnakeTransportInc.cs"
+			],
+			[
+				"autc",
+				"Scripts\\Misc\\AutoCacheColliders.cs"
+			],
+			[
+				"objective",
+				"Scripts\\LevelObjective.cs"
+			],
+			[
+				"cach",
+				"Scripts\\Misc\\ColliderCache.cs"
+			],
+			[
+				"groce",
+				"Scripts\\UI\\GroceryItem.cs"
+			],
+			[
+				"base",
+				"Scripts\\Misc\\BaseObject.cs"
+			],
+			[
+				"sti",
+				"Scripts\\StickyItem.cs"
+			],
+			[
+				"snakecol",
+				"Scripts\\Snake\\SnakeCollider.cs"
+			],
+			[
+				"partic",
+				"Scripts\\Misc\\ParticleEffect.cs"
+			],
+			[
+				"cache",
+				"Scripts\\Misc\\ColliderCache.cs"
+			],
+			[
+				"sit",
+				"Scripts\\StickyItem.cs"
+			],
+			[
+				"snakest",
+				"Scripts\\SnakeStickToItem.cs"
+			],
+			[
+				"snakec",
+				"Scripts\\Snake\\SnakeCollider.cs"
+			],
+			[
+				"snake",
+				"Scripts\\SnakeAttacher.cs"
+			],
+			[
+				"movem",
+				"Scripts\\SnakeMovement.cs"
+			],
+			[
+				"comm",
+				"Commands\\Command.cs"
+			],
+			[
+				"seri",
+				"Serializer.cs"
+			],
+			[
+				"soundp",
+				"Scripts\\SoundPlayer.cs"
+			],
+			[
+				"charsta",
+				"Player\\Char\\CharStats.cs"
+			],
+			[
+				"charmod",
+				"Player\\Char\\CharModifications.cs"
+			],
+			[
+				"healt",
+				"UI\\Healthbar\\HealthBar.cs"
+			],
+			[
+				"charmo",
+				"Player\\Char\\CharModifications.cs"
+			],
+			[
+				"charst",
+				"Player\\Char\\CharStats.cs"
+			],
+			[
+				"gamui",
+				"GameUI.cs"
+			],
+			[
+				"tracker",
+				"UI\\PlayerTracker\\PlayerTracker.cs"
+			],
+			[
+				"helath",
+				"UI\\Healthbar\\HealthBar.cs"
+			],
+			[
+				"chrast",
+				"Player\\Char\\CharStats.cs"
+			],
+			[
+				"perks",
+				"Player\\Char\\CharPerks.cs"
+			],
+			[
+				"lvlup",
+				"Player\\UI\\LvlUp\\LvlupSelector.cs"
+			],
+			[
+				"perk",
+				"Editor\\PerkEdit.cs"
+			],
+			[
+				"abili",
+				"Player\\Char\\CharAbilities.cs"
+			],
+			[
+				"basem",
+				"_MENU2000\\Scripts\\Menus\\BaseMenu.cs"
+			],
+			[
+				"baem",
+				"_MENU2000\\Scripts\\Menus\\BaseMenu.cs"
+			],
+			[
+				"stati",
+				"Scripts\\Misc\\Statistics.cs"
+			],
+			[
+				"charmov",
+				"Player\\Char\\CharMovement.cs"
+			],
+			[
+				"map",
+				"Maps\\Scripts\\Map.cs"
+			],
+			[
+				"health",
+				"UI\\Healthbar\\HealthBar.cs"
+			],
+			[
+				"rules",
+				"Scripts\\Singletons\\Rules.cs"
+			],
+			[
+				"player",
+				"_Pregame2000\\Pregame_PlayerSkin.cs"
+			],
+			[
+				"healthb",
+				"UI\\Healthbar\\HealthBar.cs"
+			],
+			[
+				"charab",
+				"Player\\Char\\CharAbilities.cs"
+			],
+			[
+				"chainp",
+				"Player\\Input\\CharInput.cs"
+			],
+			[
+				"chap",
+				"Player\\Char\\CharPerks.cs"
+			],
+			[
+				"chari",
+				"Player\\Input\\CharInput.cs"
+			],
+			[
+				"playerski",
+				"_Pregame2000\\Pregame_PlayerSkin.cs"
+			],
+			[
+				"prega",
+				"_Pregame2000\\Pregame_PlayerSkin.cs"
+			],
+			[
+				"or",
+				"Hammers\\Scripts\\OrdinaryHammer.cs"
+			],
+			[
+				"pstats",
+				"Player\\Char\\CharStats.cs"
+			],
+			[
+				"ba",
+				"_MENU2000\\Scripts\\Menus\\BaseMenu.cs"
+			],
+			[
+				"gamesta",
+				"GameStarter.cs"
+			],
+			[
+				"ready",
+				"_Pregame2000\\Pregame_Ready.cs"
+			],
+			[
+				"tower",
+				"Scripts\\Level\\Tower.cs"
+			],
+			[
+				"pregame",
+				"_Pregame2000\\Pregame_TowerSelect.cs"
+			],
+			[
+				"charstat",
+				"Player\\Char\\CharStats.cs"
+			],
+			[
+				"charinp",
+				"Player\\Input\\CharInput.cs"
+			],
+			[
+				"playerholder",
+				"_Pregame2000\\Menu_PlayerHolder.cs"
+			],
+			[
+				"rule",
+				"Scripts\\Singletons\\Rules.cs"
+			],
+			[
+				"playho",
+				"UI\\PreGame\\PlayerHolder.cs"
+			],
+			[
+				"basemen",
+				"_MENU2000\\Scripts\\Menus\\BaseMenu.cs"
+			],
+			[
+				"glob",
+				"Scripts\\GlobalInput.cs"
+			],
+			[
+				"gamin",
+				"Player\\Input\\GameInput.cs"
+			],
+			[
+				"gampi",
+				"Player\\Input\\GameInput.cs"
+			],
+			[
+				"preg",
+				"UI\\PreGame\\PreGameSetup.cs"
+			],
+			[
+				"playerho",
+				"UI\\PreGame\\PlayerHolder.cs"
+			],
+			[
+				"play",
+				"Player\\Char\\CharStats.cs"
+			],
+			[
+				"baseme",
+				"_MENU2000\\Scripts\\Menus\\BaseMenu.cs"
+			],
+			[
+				"two",
+				"Scripts\\Level\\Tower.cs"
+			],
+			[
+				"asset",
+				"Scripts\\Singletons\\Assets.cs"
+			],
+			[
+				"pregamem",
+				"UI\\PreGame\\PreGameSetup.cs"
+			],
+			[
+				"ingame",
+				"_MENU2000\\Scripts\\Menus\\Menu_Ingame.cs"
+			],
+			[
+				"global",
+				"Scripts\\GlobalInput.cs"
+			],
+			[
+				"basemenu",
+				"_MENU2000\\Scripts\\Menus\\BaseMenu.cs"
+			],
+			[
+				"buttin",
+				"_MENU2000\\Scripts\\Buttons\\Button_Input.cs"
+			],
+			[
+				"butte",
+				"_MENU2000\\Scripts\\ButtonText.cs"
+			],
+			[
+				"basebu",
+				"_MENU2000\\Scripts\\Buttons\\BaseButton.cs"
+			],
+			[
+				"basemn",
+				"_MENU2000\\Scripts\\Menus\\BaseMenu.cs"
+			],
+			[
+				"ingam",
+				"_MENU2000\\Scripts\\Menus\\Menu_Ingame.cs"
+			],
+			[
+				"settings",
+				"Scripts\\Settings.cs"
+			],
+			[
+				"levlc",
+				"Scripts\\Singletons\\LevelController.cs"
+			],
+			[
+				"levelcon",
+				"Scripts\\Singletons\\LevelController.cs"
+			],
+			[
+				"basebut",
+				"_MENU2000\\Scripts\\Buttons\\BaseButton.cs"
+			],
+			[
+				"basebutt",
+				"_MENU2000\\Scripts\\Buttons\\BaseButton.cs"
+			],
+			[
+				"playersta",
+				"Player\\Char\\CharStats.cs"
+			],
+			[
+				"buff",
+				"Player\\Input\\InputBuffer.cs"
+			],
+			[
+				"gamein",
+				"Player\\Input\\GameInput.cs"
+			],
+			[
+				"setti",
+				"Scripts\\Settings.cs"
+			],
+			[
+				"playerhol",
+				"UI\\PreGame\\PlayerHolder.cs"
+			],
+			[
+				"charint",
+				"Player\\Input\\CharInput.cs"
+			],
+			[
+				"gameint",
+				"Player\\Input\\GameInput.cs"
+			],
+			[
+				"buttonin",
+				"_MENU2000\\Scripts\\Buttons\\Button_Input.cs"
+			],
+			[
+				"menuin",
+				"_MENU2000\\Scripts\\Menus\\Menu_Input.cs"
+			],
+			[
+				"menui",
+				"UI\\Menu\\MenuInput.cs"
+			],
+			[
+				"inputgam",
+				"Player\\Input\\GameInput.cs"
+			],
+			[
+				"inpu",
+				"Player\\Input\\InputBuffer.cs"
+			],
+			[
+				"sett",
+				"Scripts\\Settings.cs"
+			],
+			[
+				"glin",
+				"Scripts\\GlobalInput.cs"
+			],
+			[
+				"baemnu",
+				"_MENU2000\\Scripts\\Menus\\BaseMenu.cs"
+			],
+			[
+				"baseb",
+				"_MENU2000\\Scripts\\Buttons\\BaseButton.cs"
+			],
+			[
+				"menuba",
+				"_MENU2000\\Scripts\\Menus\\BaseMenu.cs"
+			],
+			[
+				"de",
+				"PostGame\\DeathEvent.cs"
+			],
+			[
+				"holder",
+				"UI/PreGame/PlayerHolder.cs"
+			],
+			[
+				"combo",
+				"Player/Input/KeyCombo.cs"
+			],
+			[
+				"editorg",
+				"Editor/GameInputEditor.cs"
+			],
+			[
+				"charin",
+				"Player/Input/CharInput.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 374.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"action",
+				"ActionToKey"
+			],
+			[
+				"",
+				"GetComponent"
+			]
+		],
+		"width": 360.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 151.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
