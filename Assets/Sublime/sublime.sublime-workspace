@@ -4,16 +4,92 @@
 		"selected_items":
 		[
 			[
-				"mesh",
-				"meshBuilder	MeshBuilder"
+				"Vector",
+				"Vector3()	Vector3()"
+			],
+			[
+				"local",
+				"localScale	Vector3 { get; set; }"
+			],
+			[
+				"mesh_",
+				"mesh_Length	float"
 			],
 			[
 				"mes",
-				"meshBuilder	MeshBuilder"
+				"mesh_Width	float"
 			],
 			[
 				"tmp",
-				"tmpIndex	int"
+				"tmpMax	?"
+			],
+			[
+				"tmpM",
+				"tmpMin	?"
+			],
+			[
+				"trans",
+				"transform	Transform { get; }"
+			],
+			[
+				"sta",
+				"startHeight	float"
+			],
+			[
+				"flo",
+				"floorScript	QuadTest"
+			],
+			[
+				"floor",
+				"floorScript	QuadTest"
+			],
+			[
+				"Sta",
+				"States	States"
+			],
+			[
+				"agent",
+				"agent	NavMeshAgent"
+			],
+			[
+				"age",
+				"agent	NavMeshAgent"
+			],
+			[
+				"play",
+				"playerLastKnownPos	Vector3"
+			],
+			[
+				"agen",
+				"agentState	States"
+			],
+			[
+				"AGENT",
+				"agentState	States"
+			],
+			[
+				"static",
+				"static	static"
+			],
+			[
+				"fin",
+				"FindWithTag(string tag)	GameObject"
+			],
+			[
+				"doc",
+				"dodecahedron	Dodecahedron"
+			],
+			[
+				"te",
+				"Tetrahedron	Tetrahedron"
+			],
+			[
+				"fix",
+				"fixCenterOffset	Vector3"
+			],
+			[
+				"mesh",
+				"meshBuilder	MeshBuilder"
 			],
 			[
 				"for",
@@ -22,10 +98,6 @@
 			[
 				"camera",
 				"cameraPoints	GameObject[]"
-			],
-			[
-				"Vector",
-				"Vector3	Vector3"
 			],
 			[
 				"GA",
@@ -186,10 +258,6 @@
 			[
 				"Il",
 				"ILevelEvents	ILevelEvents"
-			],
-			[
-				"play",
-				"Play()	void"
 			],
 			[
 				"cl",
@@ -376,10 +444,6 @@
 				"E_PlayerTeam	E_PlayerTeam"
 			],
 			[
-				"te",
-				"team2	global::E_PlayerTeam"
-			],
-			[
 				"E_pl",
 				"E_PlayerTeam	E_PlayerTeam"
 			],
@@ -450,145 +514,49 @@
 			[
 				"list",
 				"List<T>()	List()"
-			],
-			[
-				"gamstea",
-				"GameState"
-			],
-			[
-				"Readingme",
-				"E_readingMode	E_readingMode"
-			],
-			[
-				"gam",
-				"gameSettings	global::IngameSettings"
-			],
-			[
-				"gamo",
-				"gameObject	[class]"
-			],
-			[
-				"gameo",
-				"gameObject	[class]"
-			],
-			[
-				"GameObject",
-				"GameObject	*()"
-			],
-			[
-				"char",
-				"charMovement"
-			],
-			[
-				"De",
-				"Debug"
-			],
-			[
-				"com",
-				"comboMode"
-			],
-			[
-				"by",
-				"byte2"
-			],
-			[
-				"buff",
-				"bufferLength"
-			],
-			[
-				"Etp",
-				"E_TowerType"
-			],
-			[
-				"type",
-				"towerType"
-			],
-			[
-				"v",
-				"Vector2"
-			],
-			[
-				"Ve",
-				"Vector2"
-			],
-			[
-				"sta",
-				"stats"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/Users/dadiu/AppData/Roaming/Sublime Text 3/config.json",
+			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/CameraTrigger.cs",
 			"settings":
 			{
-				"buffer_size": 8054,
-				"line_ending": "Unix"
+				"buffer_size": 537,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/QuadTest.cs",
 			"settings":
 			{
-				"buffer_size": 4400,
+				"buffer_size": 5198,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/cameraControl.cs",
+			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/Tetrahedron.cs",
 			"settings":
 			{
-				"buffer_size": 1241,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/CameraTrigger.cs",
-			"settings":
-			{
-				"buffer_size": 537,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/dadiu/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/Default (Windows).sublime-keymap",
-			"settings":
-			{
-				"buffer_size": 1269,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/MeshBuilder.cs",
-			"settings":
-			{
-				"buffer_size": 1664,
+				"buffer_size": 1488,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/jakupTerrain.cs",
+			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/agentMovement.cs",
 			"settings":
 			{
-				"buffer_size": 92,
+				"buffer_size": 3308,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/Octahedron.cs",
+			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/InstantiateZombies.cs",
 			"settings":
 			{
-				"buffer_size": 1889,
+				"buffer_size": 556,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/Dodecahedron.cs",
-			"settings":
-			{
-				"buffer_size": 5152,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -809,15 +777,23 @@
 	],
 	"file_history":
 	[
+		"/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/Tetrahedron.cs",
+		"/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/Dodecahedron.cs",
+		"/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/Octahedron.cs",
+		"/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/jakupTerrain.cs",
+		"/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/MeshBuilder.cs",
+		"/C/Users/dadiu/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/Default (Windows).sublime-keymap",
+		"/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/icosahedron.cs",
+		"/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/chooseShape.cs",
+		"/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/QuadTest.cs",
+		"/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/cameraControl.cs",
+		"/C/Users/dadiu/AppData/Roaming/Sublime Text 3/config.json",
 		"/C/Users/dadiu/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/Default (OSX).sublime-keymap",
 		"/C/Users/dadiu/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/Default (Linux).sublime-keymap",
-		"/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/jakupTerrain.cs",
 		"/C/Users/dadiu/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/OmniSharpSublime.sublime-settings",
 		"/C/Users/dadiu/AppData/Roaming/Sublime Text 3/Packages/User/OmniSharpSublime.sublime-settings",
 		"/C/Users/dadiu/AppData/Roaming/Sublime Text 3/Packages/OmniSharp/PrebuiltOmniSharpServer/config.json",
-		"/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/QuadTest.cs",
 		"/C/Users/dadiu/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/Tetrahedron.cs",
 		"/C/Projects/Dadiu/Progamminigame/DadioProgramming/Assets/Materials/Shaders/CRT.cs",
 		"/C/Projects/Minigame2/minigame2/Assets/Scripts/CameraFollow.cs",
 		"/C/Projects/Kraus/HermiteTube/Assets/LSystem.js",
@@ -928,19 +904,11 @@
 		"/C/Users/jon/AppData/Roaming/Sublime Text 3/Packages/User/GitGutter.sublime-settings",
 		"/C/Projects/Snake/Git/Assets/Scripts/StartTheGame.cs",
 		"/C/Projects/Snake/Git/Assets/Scripts/GameController.cs",
-		"/C/Dropbox/unity3d autmated builds jenkins",
-		"/C/Projects/Snake/Git/Assets/Scripts/Poop.cs",
-		"/C/Users/jon/AppData/Roaming/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
-		"/C/Projects/Snake/Git/Assets/Scripts/FullInspector/UpdateFullInspectorRootDirectory.cs",
-		"/C/Projects/Snake/Git/Git.sln",
-		"/C/Projects/Snake/Git/",
-		"/C/Projects/Snake/Git/Assets/Scripts/FullInspector/FindFullInspector.cs",
-		"/C/Projects/Snake/Sublime/sublime.sublime-project",
-		"/C/Projects/Snake/Git/.gitignore"
+		"/C/Dropbox/unity3d autmated builds jenkins"
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -958,6 +926,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"print",
+			"remain",
+			"print",
+			"if(count",
 			"triangles[3",
 			" = ;",
 			"] = ",
@@ -1081,11 +1053,7 @@
 			"joints",
 			"Collider",
 			"ObjectiveComplete",
-			"ObjectiveFound",
-			"Collision",
-			"OnCollision",
-			"speed",
-			"runDirection"
+			"ObjectiveFound"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1110,317 +1078,11 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/dadiu/AppData/Roaming/Sublime Text 3/config.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8054,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								903,
-								903
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"WordCountShouldRun": false,
-							"WordCountSyntax": "json",
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bs_sintax": "json",
-							"buffer_scroll_name": "031642c2",
-							"spell_check": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/QuadTest.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4400,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4396,
-								4396
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"WordCountShouldRun": true,
-							"WordCountSyntax": "unityc#",
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bs_sintax": "unityc#",
-							"buffer_scroll_name": "f5d6c886",
-							"oops":
-							{
-								"1238,1245": "Use 'var' keyword",
-								"19,24": "Using directive is not used by code and can be removed safely.",
-								"196,207": "after '_' a lower letter should follow. (Rule 'Fields')",
-								"209,219": "after '_' a lower letter should follow. (Rule 'Fields')",
-								"221,232": "after '_' a lower letter should follow. (Rule 'Fields')",
-								"234,242": "Name should have prefix '_'. (Rule 'Fields').",
-								"2392,2397": "Parameter 'index' is never used",
-								"3078,3082": "Redundant 'else' keyword",
-								"313,318": "The private field 'meshc' is never assigned",
-								"3288,3299": "Parameter 'meshBuilder' hides field 'QuadTest.meshBuilder'",
-								"341,345": "Name should have prefix '_'. (Rule 'Fields').",
-								"388,393": "Convert to constant",
-								"4132,4135": "Variable could be moved to a nested scope"
-							},
-							"spell_check": false,
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1764.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/cameraControl.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1241,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								341,
-								341
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"WordCountShouldRun": true,
-							"WordCountSyntax": "unityc#",
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bs_sintax": "unityc#",
-							"buffer_scroll_name": "04cfadd1",
-							"oops":
-							{
-								"106,109": "Name should have prefix '_'. (Rule 'Fields').",
-								"172,184": "Name should have prefix '_'. (Rule 'Fields').",
-								"19,24": "Using directive is not used by code and can be removed safely.",
-								"360,365": "Local variable is never used",
-								"516,524": "Convert to constant",
-								"539,547": "Convert to constant",
-								"59,72": "'cameraControl' should start with an upper case letter. (Rule 'Types')"
-							},
-							"spell_check": false,
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/CameraTrigger.cs",
 					"semi_transient": false,
 					"settings":
@@ -1432,8 +1094,8 @@
 						"selection":
 						[
 							[
-								408,
-								408
+								537,
+								537
 							]
 						],
 						"settings":
@@ -1443,36 +1105,46 @@
 							"WordCountSyntax": "unityc#",
 							"bh_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -1483,21 +1155,11 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
 							"bs_sintax": "unityc#",
 							"buffer_scroll_name": "6a2b132c",
@@ -1511,120 +1173,370 @@
 							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 63.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/QuadTest.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1374,
+								1374
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "unityc#",
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"bs_sintax": "unityc#",
+							"buffer_scroll_name": "f5d6c886",
+							"oops":
+							{
+								"1205,1212": "Use 'var' keyword",
+								"19,24": "Using directive is not used by code and can be removed safely.",
+								"196,207": "after '_' a lower letter should follow. (Rule 'Fields')",
+								"209,219": "after '_' a lower letter should follow. (Rule 'Fields')",
+								"221,232": "after '_' a lower letter should follow. (Rule 'Fields')",
+								"234,242": "Name should have prefix '_'. (Rule 'Fields').",
+								"313,318": "The private field 'meshc' is never assigned",
+								"341,345": "Name should have prefix '_'. (Rule 'Fields').",
+								"3876,3880": "Redundant 'else' keyword",
+								"388,393": "Convert to constant",
+								"4086,4097": "Parameter 'meshBuilder' hides field 'QuadTest.meshBuilder'",
+								"4930,4933": "Variable could be moved to a nested scope"
+							},
+							"spell_check": false,
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 441.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/Tetrahedron.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1377,
+								1377
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "unityc#",
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"bs_sintax": "unityc#",
+							"buffer_scroll_name": "cc908591",
+							"oops":
+							{
+								"1198,1205": "Redundant explicit array type specification",
+								"1244,1247": "Redundant explicit array type specification",
+								"19,24": "Using directive is not used by code and can be removed safely.",
+								"312,319": "Use 'var' keyword",
+								"565,572": "Use 'var' keyword"
+							},
+							"spell_check": false,
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 17.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/agentMovement.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1654,
+								1654
+							],
+							[
+								1716,
+								1716
+							],
+							[
+								1916,
+								1916
+							],
+							[
+								2241,
+								2241
+							],
+							[
+								2370,
+								2370
+							],
+							[
+								2456,
+								2456
+							],
+							[
+								2536,
+								2536
+							],
+							[
+								2852,
+								2852
+							],
+							[
+								3189,
+								3189
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "unityc#",
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"bs_sintax": "unityc#",
+							"buffer_scroll_name": "df04071b",
+							"oops":
+							{
+								"1650,1651": "Xml comment is not placed before a valid language element",
+								"1712,1713": "Xml comment is not placed before a valid language element",
+								"19,24": "Using directive is not used by code and can be removed safely.",
+								"211,226": "Name should have prefix '_'. (Rule 'Fields').",
+								"254,269": "Name should have prefix '_'. (Rule 'Fields').",
+								"297,309": "Name should have prefix '_'. (Rule 'Fields').",
+								"59,72": "'agentMovement' should start with an upper case letter. (Rule 'Types')"
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 252.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "/C/Users/dadiu/AppData/Roaming/Sublime Text 3/Packages/Arduino-like IDE/Default (Windows).sublime-keymap",
+					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/InstantiateZombies.cs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1269,
+						"buffer_size": 556,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								289,
-								289
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"WordCountShouldRun": false,
-							"WordCountSyntax": "json",
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bs_sintax": "json",
-							"buffer_scroll_name": "ce213eb8",
-							"spell_check": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/MeshBuilder.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1664,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1632,
-								1632
+								425,
+								425
 							]
 						],
 						"settings":
@@ -1634,36 +1546,46 @@
 							"WordCountSyntax": "unityc#",
 							"bh_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -1674,444 +1596,28 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
 							"bs_sintax": "unityc#",
-							"buffer_scroll_name": "6b0184e5",
+							"buffer_scroll_name": "0fa770fe",
 							"oops":
 							{
-								"162,174": "Convert to readonly",
+								"109,131": "Name should have prefix '_'. (Rule 'Fields').",
+								"152,158": "'Zombie' should start with a lower case letter. (Rule 'Fields')",
 								"19,24": "Using directive is not used by code and can be removed safely.",
-								"336,347": "Convert to readonly",
-								"507,514": "Convert to readonly",
-								"662,671": "Convert to readonly",
-								"712,721": "'triangles' should start with an upper case letter. (Rule 'Properties')"
+								"214,236": "Expression is always 'false'"
 							},
-							"spell_check": false,
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 378.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/jakupTerrain.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 92,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								92,
-								92
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"WordCountShouldRun": true,
-							"WordCountSyntax": "unityc#",
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bs_sintax": "unityc#",
-							"buffer_scroll_name": "ff6fa120",
-							"oops":
-							{
-								"19,24": "Using directive is not used by code and can be removed safely.",
-								"59,71": "'jakupTerrain' should start with an upper case letter. (Rule 'Types')"
-							},
-							"spell_check": false,
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/Octahedron.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1889,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								194,
-								1808
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"WordCountShouldRun": true,
-							"WordCountSyntax": "unityc#",
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bs_sintax": "unityc#",
-							"buffer_scroll_name": "8afa5b51",
-							"spell_check": false,
-							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 630.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/C/Users/dadiu/Desktop/martinGame/martinGame/Assets/Scripts/Dodecahedron.cs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5152,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17,
-								17
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"WordCountShouldRun": true,
-							"WordCountSyntax": "unityc#",
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bs_sintax": "unityc#",
-							"buffer_scroll_name": "e9caad81",
-							"oops":
-							{
-								"100,107": "'Vector3' is not a known identifier",
-								"1017,1018": "Cannot convert from ? to [UnknownType Vector3]",
-								"1040,1047": "'Vector3' is not a known identifier",
-								"1062,1063": "Cannot convert from ? to [UnknownType Vector3]",
-								"1085,1092": "'Vector3' is not a known identifier",
-								"1105,1106": "Cannot convert from ? to [UnknownType Vector3]",
-								"1128,1135": "'Vector3' is not a known identifier",
-								"1149,1150": "Cannot convert from ? to [UnknownType Vector3]",
-								"1172,1179": "'Vector3' is not a known identifier",
-								"1193,1194": "Cannot convert from ? to [UnknownType Vector3]",
-								"1216,1223": "'Vector3' is not a known identifier",
-								"1238,1239": "Cannot convert from ? to [UnknownType Vector3]",
-								"1261,1268": "'Vector3' is not a known identifier",
-								"1283,1284": "Cannot convert from ? to [UnknownType Vector3]",
-								"1306,1313": "'Vector3' is not a known identifier",
-								"1327,1328": "Cannot convert from ? to [UnknownType Vector3]",
-								"1350,1357": "'Vector3' is not a known identifier",
-								"1375,1376": "Cannot convert from ? to [UnknownType Vector3]",
-								"1397,1404": "'Vector3' is not a known identifier",
-								"1421,1422": "Cannot convert from ? to [UnknownType Vector3]",
-								"1443,1450": "'Vector3' is not a known identifier",
-								"1468,1469": "Cannot convert from ? to [UnknownType Vector3]",
-								"1490,1497": "'Vector3' is not a known identifier",
-								"1516,1517": "Cannot convert from ? to [UnknownType Vector3]",
-								"1538,1545": "'Vector3' is not a known identifier",
-								"155,159": "'Mesh' is not a known identifier",
-								"1563,1564": "Cannot convert from ? to [UnknownType Vector3]",
-								"1585,1592": "'Vector3' is not a known identifier",
-								"1609,1610": "Cannot convert from ? to [UnknownType Vector3]",
-								"1631,1638": "'Vector3' is not a known identifier",
-								"1654,1655": "Cannot convert from ? to [UnknownType Vector3]",
-								"1676,1683": "'Vector3' is not a known identifier",
-								"1700,1701": "Cannot convert from ? to [UnknownType Vector3]",
-								"1722,1729": "'Vector3' is not a known identifier",
-								"1742,1743": "Cannot convert from ? to [UnknownType Vector3]",
-								"175,182": "'Vector3' is not a known identifier",
-								"1764,1771": "'Vector3' is not a known identifier",
-								"1785,1786": "Cannot convert from ? to [UnknownType Vector3]",
-								"1807,1814": "'Vector3' is not a known identifier",
-								"1827,1828": "Cannot convert from ? to [UnknownType Vector3]",
-								"1849,1856": "'Vector3' is not a known identifier",
-								"1870,1871": "Cannot convert from ? to [UnknownType Vector3]",
-								"1892,1899": "'Vector3' is not a known identifier",
-								"1913,1914": "Cannot convert from ? to [UnknownType Vector3]",
-								"1935,1942": "'Vector3' is not a known identifier",
-								"1957,1958": "Cannot convert from ? to [UnknownType Vector3]",
-								"1979,1986": "'Vector3' is not a known identifier",
-								"1999,2000": "Cannot convert from ? to [UnknownType Vector3]",
-								"2021,2028": "'Vector3' is not a known identifier",
-								"2042,2043": "Cannot convert from ? to [UnknownType Vector3]",
-								"2064,2071": "'Vector3' is not a known identifier",
-								"2085,2086": "Cannot convert from ? to [UnknownType Vector3]",
-								"2107,2114": "'Vector3' is not a known identifier",
-								"2129,2130": "Cannot convert from ? to [UnknownType Vector3]",
-								"2151,2158": "'Vector3' is not a known identifier",
-								"2173,2174": "Cannot convert from ? to [UnknownType Vector3]",
-								"2195,2202": "'Vector3' is not a known identifier",
-								"2216,2217": "Cannot convert from ? to [UnknownType Vector3]",
-								"2248,2252": "'Mesh' is not a known identifier",
-								"295,302": "'Vector3' is not a known identifier",
-								"306,307": "Cannot convert from ?[] to ?[]",
-								"325,332": "'Vector3' is not a known identifier",
-								"336,337": "Cannot convert from ?[] to ?[]",
-								"442,449": "'Vector3' is not a known identifier",
-								"467,468": "Cannot convert from ? to [UnknownType Vector3]",
-								"4731,4741": "'MeshFilter' is not a known identifier",
-								"4764,4774": "'MeshFilter' is not a known identifier",
-								"4775,4776": "'GetComponent' is not a known identifier",
-								"4777,4778": "'Dodecahedron' does not contain a definition for 'GetComponent'",
-								"4809,4819": "'gameObject' is not a known identifier",
-								"4833,4843": "'MeshFilter' is not a known identifier",
-								"4844,4845": "'?' does not contain a definition for 'AddComponent'",
-								"4846,4847": "'?' does not contain a definition for 'AddComponent'",
-								"4873,4883": "'MeshFilter' is not a known identifier",
-								"4884,4885": "'GetComponent' is not a known identifier",
-								"4886,4887": "'Dodecahedron' does not contain a definition for 'GetComponent'",
-								"490,497": "'Vector3' is not a known identifier",
-								"4909,4913": "Cannot convert from ? to [UnknownType Mesh]",
-								"4922,4927": "'Mesh' does not contain a definition for 'Clear'",
-								"4929,4930": "'Mesh' does not contain a definition for 'Clear'",
-								"4938,4955": "'Mesh' does not contain a definition for 'RecalculateBounds'",
-								"4957,4958": "'Mesh' does not contain a definition for 'RecalculateBounds'",
-								"4966,4974": "'Mesh' does not contain a definition for 'vertices'",
-								"4977,4985": "Cannot convert from ?[] to ?",
-								"4994,5012": "'Mesh' does not contain a definition for 'RecalculateNormals'",
-								"5014,5015": "'Mesh' does not contain a definition for 'RecalculateNormals'",
-								"5023,5032": "'Mesh' does not contain a definition for 'triangles'",
-								"5035,5044": "Cannot convert from System.Int32[] to ?",
-								"5053,5060": "'Mesh' does not contain a definition for 'normals'",
-								"5063,5070": "Cannot convert from ?[] to ?",
-								"514,515": "Cannot convert from ? to [UnknownType Vector3]",
-								"537,544": "'Vector3' is not a known identifier",
-								"562,563": "Cannot convert from ? to [UnknownType Vector3]",
-								"585,592": "'Vector3' is not a known identifier",
-								"6,17": "'UnityEngine' is not a known identifier",
-								"611,612": "Cannot convert from ? to [UnknownType Vector3]",
-								"634,641": "'Vector3' is not a known identifier",
-								"659,660": "Cannot convert from ? to [UnknownType Vector3]",
-								"682,689": "'Vector3' is not a known identifier",
-								"706,707": "Cannot convert from ? to [UnknownType Vector3]",
-								"729,736": "'Vector3' is not a known identifier",
-								"74,87": "'MonoBehaviour' is not a known identifier",
-								"752,753": "Cannot convert from ? to [UnknownType Vector3]",
-								"775,782": "'Vector3' is not a known identifier",
-								"799,800": "Cannot convert from ? to [UnknownType Vector3]",
-								"822,829": "'Vector3' is not a known identifier",
-								"842,843": "Cannot convert from ? to [UnknownType Vector3]",
-								"865,872": "'Vector3' is not a known identifier",
-								"886,887": "Cannot convert from ? to [UnknownType Vector3]",
-								"909,916": "'Vector3' is not a known identifier",
-								"929,930": "Cannot convert from ? to [UnknownType Vector3]",
-								"952,959": "'Vector3' is not a known identifier",
-								"973,974": "Cannot convert from ? to [UnknownType Vector3]",
-								"996,1003": "'Vector3' is not a known identifier"
-							},
-							"spell_check": false,
 							"syntax": "Packages/Unity3D/UnityC#.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -2166,7 +1672,7 @@
 	},
 	"output.variable_get":
 	{
-		"height": 446.0
+		"height": 198.0
 	},
 	"pinned_build_system": "",
 	"project": "sublime.sublime-project",
