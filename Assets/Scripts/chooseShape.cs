@@ -32,7 +32,10 @@ public class chooseShape : MonoBehaviour {
 		dodecahedron = gameObject.GetComponent<Dodecahedron>();
 		icosahedron  = gameObject.GetComponent<Icosahedron>();
 
-		counter = (int)Random.Range(1f, 4f);
+		counter = (int)Random.Range(1f, 5f);
+		if(counter == 5)
+			counter = 4;
+
 		if(counter == 1)
 			tetrahedron.MakeMesh();
 		if(counter == 2)
@@ -86,6 +89,7 @@ public class chooseShape : MonoBehaviour {
 				counter--;
 
 		}
+        
 
 	}
 

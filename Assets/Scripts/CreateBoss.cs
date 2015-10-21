@@ -11,10 +11,9 @@ public class CreateBoss : MonoBehaviour {
 	Icosahedron icosahedron;	//20
 
 	private int endurance = 3;
-
-	public int counter;
 	private int damage;
 	private bool runCollisoinOnce = true;
+
 
 	public Color tetrahedronColor;
 	public Color octahedronColor;
@@ -36,6 +35,7 @@ public class CreateBoss : MonoBehaviour {
 			childScript.ChangeShape(i, colorArray[i]);
 		}
 	}
+
 
 	void Update(){
 		runCollisoinOnce = true;
@@ -73,4 +73,5 @@ public class CreateBoss : MonoBehaviour {
 		}
 
 	}
+
 }
