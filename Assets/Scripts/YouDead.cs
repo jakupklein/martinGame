@@ -11,11 +11,12 @@ public class YouDead : MonoBehaviour {
     private float lifes;
     public GameObject spawnPos;
     public Text  loseText;
+    public Button startButton;
 
 
     void Awake()
     {
-        loseText.enabled = false;
+        
     }
 
     void Start()
@@ -36,7 +37,7 @@ public class YouDead : MonoBehaviour {
         if (col.gameObject.tag == "Zombie")
         {
             dead = true;
-            loseText.enabled = true;
+           
             //gameObject.GetComponent<Rigidbody>().isKinematic = true;
             particlesScript.ParticlesPlay(transform.position);
             killPlayer();
@@ -52,16 +53,18 @@ public class YouDead : MonoBehaviour {
     void killPlayer()
     {
 
-       
-       
+        loseText.gameObject.SetActive(true);
+
         gameObject.SetActive(false);
     }
 
-    void SpawnPlayer()
+    public void SpawnPlayer()
     {
-        loseText.enabled = false;
+        loseText.gameObject.SetActive(false);
         gameObject.SetActive(true);
         transform.position = spawnPos.transform.position;
-        
+        Time.timeScale = 1;
+        startButton.gameObject.SetActive(false);
+
     }
 }

@@ -22,7 +22,7 @@ public class agentMovement : MonoBehaviour {
         startHeight = transform.position.y;
 
     	//navMesh = GameObject.Find("NavMesh");
-    	floor = GameObject.Find("Floor");
+    	//floor = GameObject.Find("Floor");
     	floorScript = floor.GetComponent<QuadTest>();
     	agent = GetComponent<NavMeshAgent>();
     	player = GameObject.FindWithTag("Player");
@@ -104,7 +104,7 @@ public class agentMovement : MonoBehaviour {
         //print("collider");
         if(other.gameObject.tag == "LeftFist" || other.gameObject.tag == "RightFist" || other.gameObject.tag == "Fist")
         {
-        	//print("fist");
+        	print("fist");
         	curiousPosition = other.gameObject.transform.position;
         	agentState = States.CHASING;
         }

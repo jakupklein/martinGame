@@ -10,12 +10,13 @@ public class CreateBoss : MonoBehaviour {
 	Dodecahedron dodecahedron;	//12
 	Icosahedron icosahedron;	//20
 
-	private int endurance = 3;
+	private int endurance = 12;
 	private int damage;
 	private bool runCollisoinOnce = true;
-
-
-	public Color tetrahedronColor;
+    private GameObject gMO;
+    private GameManager gM;
+    public bool bossDead;
+    public Color tetrahedronColor;
 	public Color octahedronColor;
 	public Color dodecahedronColor;
 	public Color icosahedronColor;
@@ -24,14 +25,16 @@ public class CreateBoss : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		colorArray = new Color[]{ tetrahedronColor,
+        gMO = GameObject.Find("GameManager");
+        gM = gMO.GetComponent<GameManager>();
+        colorArray = new Color[]{ tetrahedronColor,
 								  octahedronColor,
 								  dodecahedronColor,
 								  icosahedronColor,
 								  icosahedronColor};
 
 		for(int i = 0; i < transform.childCount; i++) {
-			print(transform.GetChild(i).gameObject.name);
+			
 			childScript = transform.GetChild(i).gameObject.GetComponent<BossChooseShape>();
 			childScript.ChangeShape(i, colorArray[i]);
 		}
@@ -40,10 +43,15 @@ public class CreateBoss : MonoBehaviour {
 
 	void Update(){
 		runCollisoinOnce = true;
-
+        if (bossDead)
+        {
+            GameManager.youWin = true;
+        }
 		if(damage >= endurance * 4){
 			//if(transform.childCount == 0 + 1)
 			transform.GetChild(0).gameObject.SetActive(false);
+            GameManager.youWin = true;
+            Destroy(gameObject);
 		}else if(damage >= endurance * 3){
 			//if(transform.childCount == 1 + 1)
 			transform.GetChild(1).gameObject.SetActive(false);

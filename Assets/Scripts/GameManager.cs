@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class GameManager : MonoBehaviour {
@@ -8,13 +9,23 @@ public class GameManager : MonoBehaviour {
     public static float speedIncrementRight = 0f;
     public static float speedIncrementLeft = 0f;
     public GameObject speedBarRight, speedBarLeft;
+    public static bool youWin;
+    public Text winText;
+
+
+    void Awake()
+    {
+        Time.timeScale = 0;
+
+    }
+
 
     void Update() {
 
-        if (zombieCount == 0)
+        if (youWin)
         {
-           
-            
+
+            YouWon();
             
         }
       
@@ -45,4 +56,18 @@ public class GameManager : MonoBehaviour {
         Debug.Log("speedIncrementLeft = " + speedIncrementLeft);
         speedBarLeft.transform.localScale = new Vector3(Mathf.Clamp(speedIncrementLeft, 0f, 1f), transform.localScale.y, transform.localScale.z);
     }
+
+    public void YouWon()
+    {
+        winText.gameObject.SetActive(true);
+        Invoke("RestartGame", 2f);
+    }
+
+    void RestartGame()
+    {
+        Application.Quit();
+
+    }
+
+
 }
