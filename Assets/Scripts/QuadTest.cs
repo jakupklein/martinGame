@@ -15,8 +15,17 @@ public class QuadTest : MonoBehaviour
     public Transform test;
     BoxCollider[] boxColliders;
     bool first = true;
+    public bool MakeMountain = true;
 
-    void Start()
+    void Start() {
+        if(MakeMountain){
+            StartMountain();
+        }else{
+            StartPlanet();
+        }
+    }
+
+    void StartMountain()
     {
         //meshBuilder.segments = (int)(segments*segments);
         mesh = new Mesh();
@@ -42,6 +51,53 @@ public class QuadTest : MonoBehaviour
                 Vector3 origin = new Vector3(x, Random.Range(0f, mesh_Height), z);
                 boxColliders[k].center = origin + new Vector3(mesh_Width/2, mesh_Height/2, mesh_Length/2);
                 boxColliders[k].size = new Vector3(mesh_Width, mesh_Height, mesh_Length);
+                k++;
+
+                MakeACube(origin);
+            }
+        }
+    }
+
+    void StartPlanet()
+    {
+        //meshBuilder.segments = (int)(segments*segments);
+        mesh = new Mesh();
+        filter = GetComponent<MeshFilter>();
+        meshBuilder = new MeshBuilder();
+        faceUp = Vector3.up * mesh_Height;
+        faceRight = Vector3.right * mesh_Width;
+        faceForward = Vector3.forward * mesh_Length;
+        boxColliders = new BoxCollider[(int)(segments * segments)];
+
+        for(int i = 0; i < segments * segments; i++){
+            boxColliders[i] = filter.gameObject.AddComponent(typeof(BoxCollider)) as BoxCollider;
+        }
+
+        int k = 0;
+        for (int i = 0; i < segments; i++)
+        {
+            float z = mesh_Length * i;
+
+            for (int j = 0; j < segments; j++)
+            {
+                float randomScale = Random.Range(1f, 2f);
+                float x = mesh_Width * j;
+                Vector3 origin = new Vector3(x, Random.Range(0, 0.2f), z) ;//+ new Vector3(0,randomScale,0);
+                float tmpj;
+                float tmpi;
+                if(i < segments/2){
+                    tmpi = i+1;
+                }else{
+                    tmpi = segments - i;
+                }
+                if(j < segments/2){
+                    tmpj = j+1;
+                }else{
+                    tmpj = segments - j;
+                }
+                faceUp = Vector3.up * mesh_Height * randomScale * tmpi *tmpj;
+               //boxColliders[k].center = origin + new Vector3(mesh_Width/2, mesh_Height/2, mesh_Length/2);
+               //boxColliders[k].size = new Vector3(mesh_Width, mesh_Height, mesh_Length);
                 k++;
 
                 MakeACube(origin);

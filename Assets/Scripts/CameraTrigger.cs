@@ -16,7 +16,7 @@ public class CameraTrigger : MonoBehaviour {
 
 	}
 
-	void OnTriggerEnter(Collider other) {
+	void OnTriggerStay(Collider other) {
 
 		if(other.gameObject.tag == "Player"){
 			camera.transform.position = cameraPoint.transform.position;
