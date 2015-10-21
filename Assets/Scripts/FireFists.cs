@@ -7,6 +7,8 @@ public class FireFists : MonoBehaviour {
     public float bulletForce;
     private Vector3 orRightArmPos, orLeftArmPos, leftHandInitialScale, rightHandInitialScale;
     private float rightArmRecoilWeight, leftArmRecoilWeight;
+    private GameObject gMO;
+    private GameManager gM;
 
     void Start()
     {
@@ -14,12 +16,15 @@ public class FireFists : MonoBehaviour {
         orLeftArmPos = leftArm.transform.localPosition;
         leftHandInitialScale = leftHand.transform.localScale;
         rightHandInitialScale = rightHand.transform.localScale;
+        gMO = GameObject.Find("GameManager");
+        gM = gMO.GetComponent<GameManager>();
     }
 
     void Update() {
-
-        rightArmRecoilWeight = Mathf.Clamp(rightArmRecoilWeight - Time.deltaTime, 0, 1f);
-        leftArmRecoilWeight = Mathf.Clamp(leftArmRecoilWeight - Time.deltaTime, 0, 1f);
+        float multiplierRight = 1f + GameManager.speedIncrementRight * 7f;
+        float multiplierLeft = 1f + GameManager.speedIncrementLeft * 7f;
+        rightArmRecoilWeight = Mathf.Clamp(rightArmRecoilWeight - Time.deltaTime * multiplierRight, 0, 1f);
+        leftArmRecoilWeight = Mathf.Clamp(leftArmRecoilWeight - Time.deltaTime * multiplierLeft, 0, 1f);
 
         if (Input.GetMouseButtonDown(0) && Mathf.Approximately(orRightArmPos.x, rightArm.transform.localPosition.x) )
         {
@@ -31,7 +36,7 @@ public class FireFists : MonoBehaviour {
         {
             FireLeftBullet();
         }
-
+        
         rightArm.transform.localPosition = Vector3.Lerp(orRightArmPos, orRightArmPos - new Vector3(0.5f, 0, 0), rightArmRecoilWeight);
         rightHand.transform.localScale = Vector3.Lerp(rightHandInitialScale, Vector3.zero, rightArmRecoilWeight);
 

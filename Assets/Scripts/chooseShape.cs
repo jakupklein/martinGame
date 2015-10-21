@@ -18,6 +18,8 @@ public class chooseShape : MonoBehaviour {
 	public Color dodecahedronColor;
 	public Color icosahedronColor;
 
+    bool wasLeftFist;
+
 	bool runCollisoinOnce = true;
 	// Use this for initialization
 	void Start () {
@@ -52,7 +54,19 @@ public class chooseShape : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(counter == 0){
-			Destroy(gameObject);
+            gM.ZombieMinus();
+            if (wasLeftFist)
+            {
+                gM.IncreaseSpeedLeft();
+            }
+            else
+            {
+                gM.IncreaseSpeedRight();
+            }
+
+            Destroy(gameObject);
+
+            
 		}
 		else if(counter == 1){
 			tetrahedron.MakeMesh();
@@ -83,10 +97,18 @@ public class chooseShape : MonoBehaviour {
 	}
 
 	 void OnCollisionEnter(Collision other) {
-		if(other.gameObject.tag == "Fist" && runCollisoinOnce) {
-			//print("fist");
+		if((other.gameObject.tag == "RightFist" || other.gameObject.tag == "LeftFist" )&& runCollisoinOnce) {
+			print("fist");
 			runCollisoinOnce = false;
 				counter--;
+            if(other.gameObject.tag == "LeftFist")
+            {
+                wasLeftFist = true;
+            }
+            else
+            {
+                wasLeftFist = false;
+            }
 
 		}
         

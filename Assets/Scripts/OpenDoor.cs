@@ -37,7 +37,7 @@ public class OpenDoor : MonoBehaviour {
     {
         if (col.gameObject.tag == "Player")
         {
-            Debug.Log("2");
+           
             inTrigger = 2;
         }
     }
