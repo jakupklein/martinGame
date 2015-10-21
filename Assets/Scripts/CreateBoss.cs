@@ -31,6 +31,7 @@ public class CreateBoss : MonoBehaviour {
 								  icosahedronColor};
 
 		for(int i = 0; i < transform.childCount; i++) {
+			print(transform.GetChild(i).gameObject.name);
 			childScript = transform.GetChild(i).gameObject.GetComponent<BossChooseShape>();
 			childScript.ChangeShape(i, colorArray[i]);
 		}
