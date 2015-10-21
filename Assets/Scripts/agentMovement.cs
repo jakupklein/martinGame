@@ -11,9 +11,10 @@ public class agentMovement : MonoBehaviour {
  	private GameObject navMesh;
  	private float startHeight;
  	private QuadTest floorScript;
+ 	Vector3 curiousPosition;
 
 
- 	enum States{PATROLLING, STOPPING, CHASING}
+ 	enum States{PATROLLING, STOPPING, CURIOUS, CHASING}
     private States agentState;
     void Start() {
 
@@ -42,31 +43,42 @@ public class agentMovement : MonoBehaviour {
     	agent.SetDestination(new Vector3(Random.Range(tmpMin.x, tmpMax.x),
     								 			 Random.Range(tmpMin.y, tmpMax.y),
     								 			 Random.Range(tmpMin.z, tmpMax.z) ));
-    	////print(agent.destination);
+    	//////print(agent.destination);
     }
 
     void Update() {
-    	////print(agentState);
+    	//////print(agentState);
     	switch(agentState)
     	{
     		case States.PATROLLING:
-    		print("patrolling");
+    		//print("patrolling");
     		if(Vector3.Distance(transform.position, player.transform.position) < chasingDistance )
     		{
-    			//print("is goning to chase");
+    			////print("is goning to chase");
     			agentState = States.CHASING;
     		}else if(agent.remainingDistance < 0.5f)
     		{
-    			//print("is goint to stop");
+    			////print("is goint to stop");
     			agentState = States.STOPPING;
     		}else{
-    			//print("patrolling");
+    			////print("patrolling");
     		}
     		break;
-
+    		case States.CURIOUS:
+    			agent.SetDestination(curiousPosition);
+    			if(Vector3.Distance(transform.position, player.transform.position) < chasingDistance )
+    		{
+    			////print("is goning to chase");
+    			agentState = States.CHASING;
+    		}else if(agent.remainingDistance < 0.5f)
+    		{
+    			////print("is goint to stop");
+    			agentState = States.STOPPING;
+    		}
+    		break;
     		case States.STOPPING:
-    		print("stopping");
-    			//print("stopping");
+    		//print("stopping");
+    			////print("stopping");
     			GoToNextPoint();
     			//agent.SetDestination(new Vector3(Random.Range(tmpMin.x, tmpMax.x),
     			//					 			 Random.Range(tmpMin.y, tmpMax.y),
@@ -75,7 +87,7 @@ public class agentMovement : MonoBehaviour {
     		break;
 
     		case States.CHASING:
-    		print("casing");
+    		//print("casing");
     			agent.SetDestination(player.transform.position);
     			if(agent.remainingDistance < chasingDistance){
     				agentState = States.STOPPING;
@@ -86,5 +98,15 @@ public class agentMovement : MonoBehaviour {
 
 
 
+    }
+
+     void OnCollisionEnter(Collision other) {
+        //print("collider");
+        if(other.gameObject.tag == "LeftFist" || other.gameObject.tag == "RightFist" || other.gameObject.tag == "Fist")
+        {
+        	//print("fist");
+        	curiousPosition = other.gameObject.transform.position;
+        	agentState = States.CHASING;
+        }
     }
 }
