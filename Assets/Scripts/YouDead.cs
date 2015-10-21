@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class YouDead : MonoBehaviour {
@@ -7,22 +8,27 @@ public class YouDead : MonoBehaviour {
     public GameObject particles;
     public bool dead = false;
     private PlayParticles particlesScript;
-    private float shrink;
+    private float lifes;
+    public GameObject spawnPos;
+    public Text  loseText;
 
+
+    void Awake()
+    {
+        loseText.enabled = false;
+    }
 
     void Start()
     {
-
+        
+       
         particlesScript = particles.GetComponent<PlayParticles>();
     }
 
 
     void Update()
     {
-        if (dead) { 
-        shrink = Mathf.Clamp(shrink - Time.deltaTime, 0, 1f);
-        transform.localScale = Vector3.Lerp(Vector3.zero, Vector3.one, shrink*10);
-        }
+       
     }
 
     void OnCollisionEnter(Collision col)
@@ -30,11 +36,11 @@ public class YouDead : MonoBehaviour {
         if (col.gameObject.tag == "Zombie")
         {
             dead = true;
-            shrink = 1f;
+            loseText.enabled = true;
             //gameObject.GetComponent<Rigidbody>().isKinematic = true;
             particlesScript.ParticlesPlay(transform.position);
             killPlayer();
-
+            Invoke("SpawnPlayer", 2f);
             //Invoke("killPlayer", 0.5F);
 
 
@@ -45,8 +51,17 @@ public class YouDead : MonoBehaviour {
 
     void killPlayer()
     {
-        
-        
+
+       
+       
         gameObject.SetActive(false);
+    }
+
+    void SpawnPlayer()
+    {
+        loseText.enabled = false;
+        gameObject.SetActive(true);
+        transform.position = spawnPos.transform.position;
+        
     }
 }
